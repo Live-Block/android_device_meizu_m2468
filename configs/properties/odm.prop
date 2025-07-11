@@ -1,0 +1,11 @@
+# Bluetooth
+bluetooth.device.default_name=Meizu 21 Note
+
+# Marketname
+ro.product.marketname=MEIZU 21 Note
+
+# Qti
+ro.vendor.qti.va_odm.support=1
+
+# USB
+vendor.usb.product_string=Meizu 21 Note
