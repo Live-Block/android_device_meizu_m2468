@@ -145,9 +145,13 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     com.android.hardware.contexthub
 
+# Dirty hack for slim_daemon and others
+PRODUCT_PACKAGES += \
+    libemutls_get_address
+
 # DRM
 PRODUCT_PACKAGES += \
-    android.hardware.drm-service.clearkey
+    android.hardware.drm-service.clearkey \
 
 # Fastboot
 PRODUCT_PACKAGES += \
@@ -203,6 +207,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.hardware_keystore.xml \
     android.software.device_id_attestation.prebuilt.xml
+
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.keystore.app_attest_key.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.keystore.app_attest_key.xml
@@ -311,6 +316,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     charger_fw_fstab.qti \
     fstab.qcom \
+    init.logcat.rc \
     init.recovery.qcom.rc \
     init.m2468.rc \
     init.target.rc
@@ -410,7 +416,7 @@ PRODUCT_PACKAGES += \
 $(call inherit-product, vendor/qcom/opensource/vibrator/vibrator-vendor-product.mk)
 
 # VNDK
-PRODUCT_EXTRA_VNDK_VERSIONS := 30 31 32 33
+PRODUCT_EXTRA_VNDK_VERSIONS := 30 31 32 33 34
 TARGET_FLATTEN_APEX := false
 
 # WiFi

@@ -1,0 +1,1083 @@
+[    0.000000][7:1:swapper/0] Booting Linux on physical CPU 0x0000000000 [0x411fd461]
+[    0.000000][7:1:swapper/0] Linux version 5.15.119-android13-8-gd42f62b3d005-ab1718756321 (build-user@build-host) (Android (8508608, based on r450784e) clang version 14.0.7 (https://android.googlesource.com/toolchain/llvm-project 4c603efb0cca074e9238af8b4106c30add4418f6), LLD 14.0.7) #1 SMP PREEMPT Mon Jan 6 21:35:23 UTC 2025
+[    0.000000][7:1:swapper/0] random: crng init done
+[    0.000000][7:1:swapper/0] Machine model: Meizu M2468(kalama MTP) meizu,board-id = <0x3 0x5>
+[    0.000000][7:1:swapper/0] Stack Depot is disabled
+[    0.000000][7:1:swapper/0] KVM is not available. Ignoring kvm-arm.mode
+[    0.000000][7:1:swapper/0] efi: UEFI not found.
+[    0.000000][7:1:swapper/0] OF: fdt: Reserved memory: failed to reserve memory for node 'demura_region_0': base 0x0000000000000000, size 0 MiB
+[    0.000000][7:1:swapper/0] OF: fdt: Reserved memory: failed to reserve memory for node 'demura_region_1': base 0x0000000000000000, size 0 MiB
+[    0.000000][7:1:swapper/0] Reserved memory: created CMA memory pool at 0x00000000fc400000, size 52 MiB
+[    0.000000][7:1:swapper/0] OF: reserved mem: initialized node qseecom_ta_region, compatible id shared-dma-pool
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x00000000fc400000..0x00000000ff7fffff (53248 KiB) map reusable qseecom_ta_region
+[    0.000000][7:1:swapper/0] Reserved memory: created CMA memory pool at 0x00000000fb400000, size 16 MiB
+[    0.000000][7:1:swapper/0] OF: reserved mem: initialized node qmc_dma_region, compatible id shared-dma-pool
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x00000000fb400000..0x00000000fc3fffff (16384 KiB) map reusable qmc_dma_region
+[    0.000000][7:1:swapper/0] Reserved memory: created CMA memory pool at 0x0000000bfcc00000, size 52 MiB
+[    0.000000][7:1:swapper/0] OF: reserved mem: initialized node mem_dump_region, compatible id shared-dma-pool
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x0000000bfcc00000..0x0000000bffffffff (53248 KiB) map reusable mem_dump_region
+[    0.000000][7:1:swapper/0] Reserved memory: created CMA memory pool at 0x00000000f9400000, size 32 MiB
+[    0.000000][7:1:swapper/0] OF: reserved mem: initialized node cnss_wlan_region, compatible id shared-dma-pool
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x00000000f9400000..0x00000000fb3fffff (32768 KiB) map reusable cnss_wlan_region
+[    0.000000][7:1:swapper/0] Reserved memory: created CMA memory pool at 0x00000000f3400000, size 96 MiB
+[    0.000000][7:1:swapper/0] OF: reserved mem: initialized node linux,cma, compatible id shared-dma-pool
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x00000000f3400000..0x00000000f93fffff (98304 KiB) map reusable linux,cma
+[    0.000000][7:1:swapper/0] Reserved memory: created CMA memory pool at 0x00000000f2800000, size 12 MiB
+[    0.000000][7:1:swapper/0] OF: reserved mem: initialized node adsp_heap_region, compatible id shared-dma-pool
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x00000000f2800000..0x00000000f33fffff (12288 KiB) map reusable adsp_heap_region
+[    0.000000][7:1:swapper/0] Reserved memory: created CMA memory pool at 0x00000000f1800000, size 16 MiB
+[    0.000000][7:1:swapper/0] OF: reserved mem: initialized node user_contig_region, compatible id shared-dma-pool
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x00000000f1800000..0x00000000f27fffff (16384 KiB) map reusable user_contig_region
+[    0.000000][7:1:swapper/0] Reserved memory: created CMA memory pool at 0x00000000f1000000, size 8 MiB
+[    0.000000][7:1:swapper/0] OF: reserved mem: initialized node sdsp_region, compatible id shared-dma-pool
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x00000000f1000000..0x00000000f17fffff (8192 KiB) map reusable sdsp_region
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x0000000bfcbff000..0x0000000bfcbfffff (4 KiB) nomap non-reusable debug_kinfo_region
+[    0.000000][7:1:swapper/0] Reserved memory: created CMA memory pool at 0x00000000f0000000, size 16 MiB
+[    0.000000][7:1:swapper/0] OF: reserved mem: initialized node sp_region, compatible id shared-dma-pool
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x00000000f0000000..0x00000000f0ffffff (16384 KiB) map reusable sp_region
+[    0.000000][7:1:swapper/0] Reserved memory: created CMA memory pool at 0x00000000efc00000, size 4 MiB
+[    0.000000][7:1:swapper/0] OF: reserved mem: initialized node cdsp_eva_region, compatible id shared-dma-pool
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x00000000efc00000..0x00000000efffffff (4096 KiB) map reusable cdsp_eva_region
+[    0.000000][7:1:swapper/0] Reserved memory: created CMA memory pool at 0x00000000eec00000, size 16 MiB
+[    0.000000][7:1:swapper/0] OF: reserved mem: initialized node va_md_mem_region, compatible id shared-dma-pool
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x00000000eec00000..0x00000000efbfffff (16384 KiB) map reusable va_md_mem_region
+[    0.000000][7:1:swapper/0] Reserved memory: created CMA memory pool at 0x00000000cb800000, size 164 MiB
+[    0.000000][7:1:swapper/0] OF: reserved mem: initialized node non_secure_display_region, compatible id shared-dma-pool
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x00000000cb800000..0x00000000d5bfffff (167936 KiB) map reusable non_secure_display_region
+[    0.000000][7:1:swapper/0] Reserved memory: created CMA memory pool at 0x00000000ea400000, size 72 MiB
+[    0.000000][7:1:swapper/0] OF: reserved mem: initialized node secure_cdsp_region, compatible id shared-dma-pool
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x00000000ea400000..0x00000000eebfffff (73728 KiB) map reusable secure_cdsp_region
+[    0.000000][7:1:swapper/0] Reserved memory: created CMA memory pool at 0x00000000e8c00000, size 24 MiB
+[    0.000000][7:1:swapper/0] OF: reserved mem: initialized node qseecom_region, compatible id shared-dma-pool
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x00000000e8c00000..0x00000000ea3fffff (24576 KiB) map reusable qseecom_region
+[    0.000000][7:1:swapper/0] Reserved memory: created CMA memory pool at 0x0000000bfa000000, size 40 MiB
+[    0.000000][7:1:swapper/0] OF: reserved mem: initialized node demura_heap_region, compatible id shared-dma-pool
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x0000000bfa000000..0x0000000bfc7fffff (40960 KiB) map reusable demura_heap_region
+[    0.000000][7:1:swapper/0] Reserved memory: created CMA memory pool at 0x00000000e7000000, size 28 MiB
+[    0.000000][7:1:swapper/0] OF: reserved mem: initialized node audio_cma_region, compatible id shared-dma-pool
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x00000000e7000000..0x00000000e8bfffff (28672 KiB) map reusable audio_cma_region
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x0000000080000000..0x00000000809fffff (10240 KiB) nomap non-reusable gunyah_hyp_region@80000000
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x0000000081a00000..0x0000000081c5ffff (2432 KiB) nomap non-reusable xbl_dt_log_merged@81a00000
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x0000000081c60000..0x0000000081c7ffff (128 KiB) nomap non-reusable aop_cmd_db_region@81c60000
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x0000000081c80000..0x0000000081cf3fff (464 KiB) nomap non-reusable aop_config_merged_region@81c80000
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x0000000081cf4000..0x0000000081cf4fff (4 KiB) nomap non-reusable chipinfo_region@81cf4000
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x0000000081d00000..0x0000000081efffff (2048 KiB) nomap non-reusable smem_region@81d00000
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x0000000081f00000..0x0000000081f1ffff (128 KiB) nomap non-reusable adsp_mhi_region@81f00000
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x0000000082600000..0x00000000826fffff (1024 KiB) nomap non-reusable global_sync_region@82600000
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x0000000082700000..0x00000000827fffff (1024 KiB) nomap non-reusable tz_stat_region@82700000
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x000000008a800000..0x000000009a3fffff (258048 KiB) nomap non-reusable mpss_region@89800000
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x000000009b000000..0x000000009b07ffff (512 KiB) nomap non-reusable q6_mpss_dtb_region@9b000000
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x000000009b080000..0x000000009b08ffff (64 KiB) nomap non-reusable ipa_fw_region@9b080000
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x000000009b090000..0x000000009b099fff (40 KiB) nomap non-reusable ipa_gsi_region@9b090000
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x000000009b09a000..0x000000009b09bfff (8 KiB) nomap non-reusable gpu_micro_code_region@9b09a000
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x000000009b100000..0x000000009b27ffff (1536 KiB) nomap non-reusable spss_region_region@9b100000
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x000000009b280000..0x000000009b2dffff (384 KiB) nomap non-reusable spu_tz_shared_mem@9b280000
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x000000009b2e0000..0x000000009b2fffff (128 KiB) nomap non-reusable spu_modem_shared_mem@9b2e0000
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x000000009b300000..0x000000009bafffff (8192 KiB) nomap non-reusable camera_region@9b300000
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x000000009bb00000..0x000000009c1fffff (7168 KiB) nomap non-reusable video_region@9bb00000
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x000000009c200000..0x000000009c8fffff (7168 KiB) nomap non-reusable cvp_region@9c200000
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x000000009c900000..0x000000009e8fffff (32768 KiB) nomap non-reusable cdsp_region@9c900000
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x000000009e900000..0x000000009e97ffff (512 KiB) nomap non-reusable q6_cdsp_dtb_region@9e900000
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x000000009e980000..0x000000009e9fffff (512 KiB) nomap non-reusable q6_adsp_dtb_region@9e980000
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x000000009ea00000..0x00000000a4a7ffff (98816 KiB) nomap non-reusable adspslpi_region@9ea00000
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x00000000a5100000..0x00000000a52fffff (2048 KiB) nomap non-reusable ramoops_region
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x00000000a6000000..0x00000000a6000fff (4 KiB) map non-reusable mzversion_region@a6000000
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x00000000a7605000..0x00000000a760cfff (32 KiB) map non-reusable bootloader_mem@0xA7605000
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x00000000b8000000..0x00000000baafffff (44032 KiB) map non-reusable splash_region
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x00000000d5e00000..0x00000000d7ffffff (34816 KiB) nomap non-reusable mpss_dsm_region@d4d00000
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x00000000d8000000..0x00000000d80fffff (1024 KiB) nomap non-reusable tz_reserved_region@d8000000
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x00000000d8100000..0x00000000d813ffff (256 KiB) nomap non-reusable xbl_sc_region@d8100000
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x00000000d8140000..0x00000000d82fffff (1792 KiB) nomap non-reusable cpucp_fw_region@d8140000
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x00000000d8300000..0x00000000d87fffff (5120 KiB) nomap non-reusable qtee_region@d8300000
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x00000000e6440000..0x00000000e671cfff (2932 KiB) nomap non-reusable hwfence-shmem
+[    0.000000][7:1:swapper/0] OF: reserved mem: 0x00000000ff800000..0x00000000ffdfffff (6144 KiB) nomap non-reusable llcc_lpi_region@ff800000
+[    0.000000][7:1:swapper/0] Zone ranges:
+[    0.000000][7:1:swapper/0]   DMA32    empty
+[    0.000000][7:1:swapper/0]   Normal   [mem 0x0000000080000000-0x0000000bffffffff]
+[    0.000000][7:1:swapper/0] Movable zone start for each node
+[    0.000000][7:1:swapper/0] Early memory node ranges
+[    0.000000][7:1:swapper/0]   node   0: [mem 0x0000000080000000-0x00000000809fffff]
+[    0.000000][7:1:swapper/0]   node   0: [mem 0x0000000080a00000-0x0000000080dfffff]
+[    0.000000][7:1:swapper/0]   node   0: [mem 0x00000000811d0000-0x00000000819fffff]
+[    0.000000][7:1:swapper/0]   node   0: [mem 0x0000000081a00000-0x0000000081cf4fff]
+[    0.000000][7:1:swapper/0]   node   0: [mem 0x0000000081cf5000-0x0000000081cfffff]
+[    0.000000][7:1:swapper/0]   node   0: [mem 0x0000000081d00000-0x0000000081f1ffff]
+[    0.000000][7:1:swapper/0]   node   0: [mem 0x0000000081f20000-0x00000000825fffff]
+[    0.000000][7:1:swapper/0]   node   0: [mem 0x0000000082600000-0x00000000827fffff]
+[    0.000000][7:1:swapper/0]   node   0: [mem 0x0000000082800000-0x000000008a7fffff]
+[    0.000000][7:1:swapper/0]   node   0: [mem 0x000000008a800000-0x000000009a3fffff]
+[    0.000000][7:1:swapper/0]   node   0: [mem 0x000000009a400000-0x000000009affffff]
+[    0.000000][7:1:swapper/0]   node   0: [mem 0x000000009b000000-0x000000009b09bfff]
+[    0.000000][7:1:swapper/0]   node   0: [mem 0x000000009b09c000-0x000000009b0fffff]
+[    0.000000][7:1:swapper/0]   node   0: [mem 0x000000009b100000-0x00000000a4a7ffff]
+[    0.000000][7:1:swapper/0]   node   0: [mem 0x00000000a4a80000-0x00000000a50fffff]
+[    0.000000][7:1:swapper/0]   node   0: [mem 0x00000000a5100000-0x00000000a52fffff]
+[    0.000000][7:1:swapper/0]   node   0: [mem 0x00000000a5300000-0x00000000d5dfffff]
+[    0.000000][7:1:swapper/0]   node   0: [mem 0x00000000d5e00000-0x00000000d7ffffff]
+[    0.000000][7:1:swapper/0]   node   0: [mem 0x00000000d8140000-0x00000000d815ffff]
+[    0.000000][7:1:swapper/0]   node   0: [mem 0x00000000e3bb0000-0x00000000e643ffff]
+[    0.000000][7:1:swapper/0]   node   0: [mem 0x00000000e6440000-0x00000000e671cfff]
+[    0.000000][7:1:swapper/0]   node   0: [mem 0x00000000e671d000-0x00000000ff7fffff]
+[    0.000000][7:1:swapper/0]   node   0: [mem 0x00000000ff800000-0x00000000ffdfffff]
+[    0.000000][7:1:swapper/0]   node   0: [mem 0x00000000ffe00000-0x00000000ffffffff]
+[    0.000000][7:1:swapper/0]   node   0: [mem 0x0000000880000000-0x00000008b86fffff]
+[    0.000000][7:1:swapper/0]   node   0: [mem 0x00000008c0000000-0x0000000bfcbfefff]
+[    0.000000][7:1:swapper/0]   node   0: [mem 0x0000000bfcbff000-0x0000000bfcbfffff]
+[    0.000000][7:1:swapper/0]   node   0: [mem 0x0000000bfcc00000-0x0000000bffffffff]
+[    0.000000][7:1:swapper/0] Initmem setup node 0 [mem 0x0000000080000000-0x0000000bffffffff]
+[    0.000000][7:1:swapper/0] On node 0, zone Normal: 976 pages in unavailable ranges
+[    0.000000][7:1:swapper/0] On node 0, zone Normal: 320 pages in unavailable ranges
+[    0.000000][7:1:swapper/0] On node 0, zone Normal: 47696 pages in unavailable ranges
+[    0.000000][7:1:swapper/0] On node 0, zone Normal: 30976 pages in unavailable ranges
+[    0.000000][7:1:swapper/0] psci: probing for conduit method from DT.
+[    0.000000][7:1:swapper/0] psci: PSCIv1.1 detected in firmware.
+[    0.000000][7:1:swapper/0] psci: Using standard PSCI v0.2 function IDs
+[    0.000000][7:1:swapper/0] psci: MIGRATE_INFO_TYPE not supported.
+[    0.000000][7:1:swapper/0] psci: SMC Calling Convention v1.3
+[    0.000000][7:1:swapper/0] psci: OSI mode supported.
+[    0.000000][7:1:swapper/0] Load bootconfig: 675 bytes 47 nodes
+[    0.000000][7:1:swapper/0] percpu: Embedded 29 pages/cpu s81600 r8192 d28992 u118784
+[    0.000000][7:1:swapper/0] Detected PIPT I-cache on CPU0
+[    0.000000][7:1:swapper/0] CPU features: SYS_ID_AA64MMFR1_EL1[11:8]: forced to 0
+[    0.000000][7:1:swapper/0] CPU features: detected: Branch Target Identification
+[    0.000000][7:1:swapper/0] CPU features: detected: Address authentication (architected algorithm)
+[    0.000000][7:1:swapper/0] CPU features: detected: ARM erratum 2457168
+[    0.000000][7:1:swapper/0] CPU features: detected: GIC system register CPU interface
+[    0.000000][7:1:swapper/0] CPU features: detected: Hardware dirty bit management
+[    0.000000][7:1:swapper/0] CPU features: detected: Spectre-v4
+[    0.000000][7:1:swapper/0] CPU features: kernel page table isolation forced OFF by kpti command line option
+[    0.000000][7:1:swapper/0] CPU features: detected: Qualcomm erratum 1009, or ARM erratum 1286807, 2441009
+[    0.000000][7:1:swapper/0] alternatives: patching kernel code
+[    0.000000][7:1:swapper/0] Built 1 zonelists, mobility grouping on.  Total pages: 4050049
+[    0.000000][7:1:swapper/0] Kernel command line: stack_depot_disable=on kasan.stacktrace=off kvm-arm.mode=protected cgroup_disable=pressure console=ttyMSM0,115200n8 loglevel=7 kpti=0 log_buf_len=512K kernel.panic_on_rcu_stall=1 service_locator.enable=1 msm_rtb.filter=0x237 rcupdate.rcu_expedited=1 rcu_nocbs=0-7 ftrace_dump_on_oops swiotlb=noforce loop.max_part=7 fw_devlink.strict=1 allow_mismatched_32bit_el0 cpufreq.default_governor=performance printk.console_no_auto_verbose=0 kasan=off sysctl.kernel.sched_pelt_multiplier=4 can.stats_timer=0 pcie_ports=compat irqaffinity=0-2 disable_dma32=on no-steal-acc cgroup.memory=nokmem,nosocket slub_debug=- video=vfb:640x400,bpp=32,memsize=3072000 androidboot.selinux=permissive qcom_geni_serial.con_enabled=1 nosoftlockup page_poison=1 sysrq_always_enabled bootconfig buildvariant=user  msm_drm.dsi_display0=qcom,mdss_dsi_xjmz_amoled_tianma_cmd: rootwait ro init=/ini verify_sn=1 verify_imei=1 verify_rpmbkey=-7 memtest=0 mz_mem.zram_enable=0 silent_bo
+[    0.000000][7:1:swapper/0] cgroup: Disabling pressure control group feature
+[    0.000000][7:1:swapper/0] sysrq: sysrq always enabled.
+[    0.000000][7:1:swapper/0] Unknown kernel command line parameters "page_poison=1 buildvariant=user verify_sn=1 verify_imei=1 verify_rpmbkey=-7 memtest=0", will be passed to user space.
+[    0.000000][7:1:swapper/0] printk: log_buf_len: 524288 bytes
+[    0.000000][7:1:swapper/0] printk: early log buf free: 116264(88%)
+[    0.000000][7:1:swapper/0] Dentry cache hash table entries: 2097152 (order: 12, 16777216 bytes, linear)
+[    0.000000][7:1:swapper/0] Inode-cache hash table entries: 1048576 (order: 11, 8388608 bytes, linear)
+[    0.000000][7:1:swapper/0] mem auto-init: stack:all(zero), heap alloc:on, heap free:off
+[    0.000000][7:1:swapper/0] Memory: 14884868K/16457344K available (23872K kernel code, 2394K rwdata, 16860K rodata, 2496K init, 615K bss, 908924K reserved, 663552K cma-reserved)
+[    0.000000][7:1:swapper/0] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=8, Nodes=1
+[    0.000000][7:1:swapper/0] trace event string verifier disabled
+[    0.000000][7:1:swapper/0] rcu: Preemptible hierarchical RCU implementation.
+[    0.000000][7:1:swapper/0] rcu: 	RCU event tracing is enabled.
+[    0.000000][7:1:swapper/0] rcu: 	RCU dyntick-idle grace-period acceleration is enabled.
+[    0.000000][7:1:swapper/0] rcu: 	RCU restricting CPUs from NR_CPUS=32 to nr_cpu_ids=8.
+[    0.000000][7:1:swapper/0] rcu: 	RCU priority boosting: priority 1 delay 500 ms.
+[    0.000000][7:1:swapper/0] 	All grace periods are expedited (rcu_expedited).
+[    0.000000][7:1:swapper/0] 	Trampoline variant of Tasks RCU enabled.
+[    0.000000][7:1:swapper/0] 	Tracing variant of Tasks RCU enabled.
+[    0.000000][7:1:swapper/0] rcu: RCU calculated value of scheduler-enlistment delay is 25 jiffies.
+[    0.000000][7:1:swapper/0] rcu: Adjusting geometry for rcu_fanout_leaf=16, nr_cpu_ids=8
+[    0.000000][7:1:swapper/0] NR_IRQS: 64, nr_irqs: 64, preallocated irqs: 0
+[    0.000000][7:1:swapper/0] GICv3: 988 SPIs implemented
+[    0.000000][7:1:swapper/0] GICv3: 0 Extended SPIs implemented
+[    0.000000][7:1:swapper/0] GICv3: Distributor has no Range Selector support
+[    0.000000][7:1:swapper/0] Root IRQ handler: gic_handle_irq.34151.cfi_jt
+[    0.000000][7:1:swapper/0] GICv3: 16 PPIs implemented
+[    0.000000][7:1:swapper/0] GICv3: Enabling SGIs without active state
+[    0.000000][7:1:swapper/0] GICv3: CPU0: found redistributor 0 region 0:0x0000000017180000
+[    0.000000][7:1:swapper/0] ITS [mem 0x17140000-0x1715ffff]
+[    0.000000][7:1:swapper/0] ITS@0x0000000017140000: Devices Table too large, reduce ids 32->19
+[    0.000000][7:1:swapper/0] ITS@0x0000000017140000: Devices too large, reduce ITS pages 1024->256
+[    0.000000][7:1:swapper/0] ITS@0x0000000017140000: allocated 131072 Devices @81300000 (indirect, esz 8, psz 4K, shr 1)
+[    0.000000][7:1:swapper/0] ITS@0x0000000017140000: allocated 4096 Interrupt Collections @81252000 (flat, esz 1, psz 4K, shr 1)
+[    0.000000][7:1:swapper/0] GICv3: using LPI property table @0x0000000081270000
+[    0.000000][7:1:swapper/0] GICv3: CPU0: using allocated LPI pending table @0x0000000081280000
+[    0.000000][7:1:swapper/0] rcu: 	Offload RCU callbacks from CPUs: 0-7.
+[    0.000000][7:1:swapper/0] kfence: initialized - using 524288 bytes for 63 objects at 0x(____ptrval____)-0x(____ptrval____)
+[    0.000000][7:1:swapper/0] arch_timer: cp15 and mmio timer(s) running at 19.20MHz (virt/virt).
+[    0.000000][7:1:swapper/0] clocksource: arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x46d987e47, max_idle_ns: 440795202767 ns
+[    0.000000][7:1:swapper/0] sched_clock: 56 bits at 19MHz, resolution 52ns, wraps every 4398046511078ns
+[    0.004077][7:1:swapper/0] arm-pv: using stolen time PV
+[    0.004300][7:1:swapper/0] Calibrating delay loop (skipped), value calculated using timer frequency.. 38.40 BogoMIPS (lpj=76800)
+[    0.004312][7:1:swapper/0] pid_max: default: 32768 minimum: 301
+[    0.004382][7:1:swapper/0] LSM: Security Framework initializing
+[    0.004412][7:1:swapper/0] SELinux:  Initializing.
+[    0.004532][7:1:swapper/0] Mount-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)
+[    0.004552][7:1:swapper/0] Mountpoint-cache hash table entries: 32768 (order: 6, 262144 bytes, linear)
+[    0.006004][7:1:swapper/0] rcu: Hierarchical SRCU implementation.
+[    0.006642][7:1:swapper/0] dyndbg: Ignore empty _ddebug table in a CONFIG_DYNAMIC_DEBUG_CORE build
+[    0.006693][7:1:swapper/0] Platform MSI: msi-controller@17140000 domain created
+[    0.007478][7:1:swapper/0] PCI/MSI: /soc/interrupt-controller@17100000/msi-controller@17140000 domain created
+[    0.008220][7:1:swapper/0] EFI services will not be available.
+[    0.008498][7:1:swapper/0] smp: Bringing up secondary CPUs ...
+[    0.009567][7:1:swapper/0] Detected PIPT I-cache on CPU1
+[    0.009598][7:1:swapper/0] GICv3: CPU1: found redistributor 100 region 0:0x00000000171c0000
+[    0.009704][7:1:swapper/0] GICv3: CPU1: using allocated LPI pending table @0x0000000081290000
+[    0.009788][7:1:swapper/0] CPU1: Booted secondary processor 0x0000000100 [0x411fd461]
+[    0.010843][7:1:swapper/0] Detected PIPT I-cache on CPU2
+[    0.010862][7:1:swapper/0] GICv3: CPU2: found redistributor 200 region 0:0x0000000017200000
+[    0.010956][7:1:swapper/0] GICv3: CPU2: using allocated LPI pending table @0x00000000812a0000
+[    0.011034][7:1:swapper/0] CPU2: Booted secondary processor 0x0000000200 [0x411fd461]
+[    0.012118][7:1:swapper/0] Detected PIPT I-cache on CPU3
+[    0.012131][7:1:swapper/0] CPU features: SANITY CHECK: Unexpected variation in SYS_ID_AA64MMFR1_EL1. Boot CPU: 0x00000011212122, CPU3: 0x00000010212122
+[    0.012141][7:1:swapper/0] CPU features: Unsupported CPU feature variation detected.
+[    0.012277][7:1:swapper/0] GICv3: CPU3: found redistributor 300 region 0:0x0000000017240000
+[    0.012456][7:1:swapper/0] GICv3: CPU3: using allocated LPI pending table @0x00000000812b0000
+[    0.012561][7:1:swapper/0] CPU3: Booted secondary processor 0x0000000300 [0x411fd4d0]
+[    0.013712][7:1:swapper/0] Detected PIPT I-cache on CPU4
+[    0.013726][7:1:swapper/0] CPU features: SANITY CHECK: Unexpected variation in SYS_ID_AA64MMFR1_EL1. Boot CPU: 0x00000011212122, CPU4: 0x00000010212122
+[    0.013753][7:1:swapper/0] GICv3: CPU4: found redistributor 400 region 0:0x0000000017280000
+[    0.013890][7:1:swapper/0] GICv3: CPU4: using allocated LPI pending table @0x00000000812c0000
+[    0.013999][7:1:swapper/0] CPU4: Booted secondary processor 0x0000000400 [0x411fd4d0]
+[    0.015144][7:1:swapper/0] CPU features: detected: Spectre-BHB
+[    0.015149][7:1:swapper/0] CPU features: detected: ARM erratum 2067961 or 2054223
+[    0.015157][7:1:swapper/0] Detected PIPT I-cache on CPU5
+[    0.015161][7:1:swapper/0] CPU features: SANITY CHECK: Unexpected variation in SYS_ID_AA64MMFR1_EL1. Boot CPU: 0x00000011212122, CPU5: 0x00000010212122
+[    0.015164][7:1:swapper/0] CPU features: SANITY CHECK: Unexpected variation in SYS_ID_MMFR4_EL1. Boot CPU: 0x00000001021111, CPU5: 0x00000001021110
+[    0.015173][7:1:swapper/0] GICv3: CPU5: found redistributor 500 region 0:0x00000000172c0000
+[    0.015239][7:1:swapper/0] GICv3: CPU5: using allocated LPI pending table @0x00000000812d0000
+[    0.015307][7:1:swapper/0] CPU5: Booted secondary processor 0x0000000500 [0x412fd470]
+[    0.016317][7:1:swapper/0] Detected PIPT I-cache on CPU6
+[    0.016322][7:1:swapper/0] CPU features: SANITY CHECK: Unexpected variation in SYS_ID_AA64MMFR1_EL1. Boot CPU: 0x00000011212122, CPU6: 0x00000010212122
+[    0.016326][7:1:swapper/0] CPU features: SANITY CHECK: Unexpected variation in SYS_ID_MMFR4_EL1. Boot CPU: 0x00000001021111, CPU6: 0x00000001021110
+[    0.016335][7:1:swapper/0] GICv3: CPU6: found redistributor 600 region 0:0x0000000017300000
+[    0.016394][7:1:swapper/0] GICv3: CPU6: using allocated LPI pending table @0x00000000812e0000
+[    0.016458][7:1:swapper/0] CPU6: Booted secondary processor 0x0000000600 [0x412fd470]
+[    0.017594][7:1:swapper/0] Detected PIPT I-cache on CPU7
+[    0.017606][7:1:swapper/0] CPU features: SANITY CHECK: Unexpected variation in SYS_ID_AA64MMFR1_EL1. Boot CPU: 0x00000011212122, CPU7: 0x00000010212122
+[    0.017810][7:1:swapper/0] GICv3: CPU7: found redistributor 700 region 0:0x0000000017340000
+[    0.017924][7:1:swapper/0] GICv3: CPU7: using allocated LPI pending table @0x00000000812f0000
+[    0.018015][7:1:swapper/0] CPU7: Booted secondary processor 0x0000000700 [0x411fd4e0]
+[    0.018131][7:1:swapper/0] smp: Brought up 1 node, 8 CPUs
+[    0.018220][7:1:swapper/0] SMP: Total of 8 processors activated.
+[    0.018227][7:1:swapper/0] CPU features: detected: ARMv8.4 Translation Table Level
+[    0.018232][7:1:swapper/0] CPU features: detected: Data cache clean to the PoU not required for I/D coherence
+[    0.018237][7:1:swapper/0] CPU features: detected: Common not Private translations
+[    0.018242][7:1:swapper/0] CPU features: detected: CRC32 instructions
+[    0.018246][7:1:swapper/0] CPU features: detected: E0PD
+[    0.018251][7:1:swapper/0] CPU features: detected: Generic authentication (architected algorithm)
+[    0.018256][7:1:swapper/0] CPU features: detected: RCpc load-acquire (LDAPR)
+[    0.018261][7:1:swapper/0] CPU features: detected: LSE atomic instructions
+[    0.018265][7:1:swapper/0] CPU features: detected: Privileged Access Never
+[    0.018270][7:1:swapper/0] CPU features: detected: Speculation barrier (SB)
+[    0.018274][7:1:swapper/0] CPU features: detected: Stage-2 Force Write-Back
+[    0.018278][7:1:swapper/0] CPU features: detected: TLB range maintenance instructions
+[    0.018284][7:1:swapper/0] CPU features: detected: Speculative Store Bypassing Safe (SSBS)
+[    0.040722][7:1:swapper/0] CPU features: detected CPU7: Activity Monitors Unit (AMU)
+[    0.040722][7:1:swapper/0] CPU features: detected CPU6: Activity Monitors Unit (AMU)
+[    0.040722][7:1:swapper/0] CPU features: detected CPU5: Activity Monitors Unit (AMU)
+[    0.040723][7:1:swapper/0] CPU features: detected CPU3: Activity Monitors Unit (AMU)
+[    0.040723][7:1:swapper/0] CPU features: detected CPU4: Activity Monitors Unit (AMU)
+[    0.040724][7:1:swapper/0] CPU features: detected CPU2: Activity Monitors Unit (AMU)
+[    0.040724][7:1:swapper/0] CPU features: detected CPU1: Activity Monitors Unit (AMU)
+[    0.040724][7:1:swapper/0] CPU features: detected CPU0: Activity Monitors Unit (AMU)
+[    0.063084][7:1:swapper/0] CPU: All CPU(s) started at EL1
+[    0.111699][7:1:swapper/0] Registered cp15_barrier emulation handler
+[    0.111710][7:1:swapper/0] Registered setend emulation handler
+[    0.111712][7:1:swapper/0] KASLR enabled
+[    0.111746][7:1:swapper/0] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 7645041785100000 ns
+[    0.111755][7:1:swapper/0] futex hash table entries: 2048 (order: 5, 131072 bytes, linear)
+[    0.113597][7:1:swapper/0] pinctrl core: initialized pinctrl subsystem
+[    0.113780][7:1:swapper/0] NET: Registered PF_NETLINK/PF_ROUTE protocol family
+[    0.114351][7:1:swapper/0] DMA: preallocated 2048 KiB GFP_KERNEL pool for atomic allocations
+[    0.114368][7:1:swapper/0] audit: initializing netlink subsys (disabled)
+[    0.114463][7:1:swapper/0] audit: type=2000 audit(0.088:1): state=initialized audit_enabled=0 res=1
+[    0.114537][7:1:swapper/0] thermal_sys: Registered thermal governor 'step_wise'
+[    0.114538][7:1:swapper/0] thermal_sys: Registered thermal governor 'user_space'
+[    0.114539][7:1:swapper/0] thermal_sys: Registered thermal governor 'power_allocator'
+[    0.117351][7:1:swapper/0] cpuidle: using governor menu
+[    0.117396][7:1:swapper/0] hw-breakpoint: found 6 breakpoint and 4 watchpoint registers.
+[    0.117501][7:1:swapper/0] ASID allocator initialised with 65536 entries
+[    0.117524][7:1:swapper/0] Serial: AMBA PL011 UART driver
+[    0.117999][7:1:swapper/0] printk: console [ramoops-1] enabled
+[    0.118001][7:1:swapper/0] pstore: Registered ramoops as persistent store backend
+[    0.118003][7:1:swapper/0] ramoops: using 0x200000@0xa5100000, ecc: 0
+[    0.134202][7:1:swapper/0] platform 1d84000.ufshc: Fixing up cyclic dependency with 1d80000.ufsphy_mem
+[    0.136106][7:1:swapper/0] amba 10d09000.tpda: Fixing up cyclic dependency with 10d43000.tpdm
+[    0.136115][7:1:swapper/0] amba 10d09000.tpda: Fixing up cyclic dependency with 10d42000.tpdm
+[    0.136122][7:1:swapper/0] amba 10d09000.tpda: Fixing up cyclic dependency with 10d41000.tpdm
+[    0.136129][7:1:swapper/0] amba 10d09000.tpda: Fixing up cyclic dependency with 10d40000.tpdm
+[    0.136152][7:1:swapper/0] platform soc:funnel@10b23000: Fixing up cyclic dependency with soc:tpdm_lpicc
+[    0.136176][7:1:swapper/0] platform soc:funnel@10b50000: Fixing up cyclic dependency with soc:tpdm_lpass_lpi
+[    0.136183][7:1:swapper/0] platform soc:funnel@10b50000: Fixing up cyclic dependency with soc:lpass_stm
+[    0.136210][7:1:swapper/0] platform soc:funnel@10b44000: Fixing up cyclic dependency with soc:funnel@10b50000
+[    0.136216][7:1:swapper/0] platform soc:funnel@10b44000: Fixing up cyclic dependency with soc:audio_etm0
+[    0.136238][7:1:swapper/0] amba 10902000.funnel: Fixing up cyclic dependency with 10900000.tpdm
+[    0.136263][7:1:swapper/0] amba 10832000.funnel: Fixing up cyclic dependency with 10830000.tpdm
+[    0.136296][7:1:swapper/0] amba 10c0a000.funnel: Fixing up cyclic dependency with 10c08000.tpdm
+[    0.136303][7:1:swapper/0] amba 10c0a000.funnel: Fixing up cyclic dependency with 10c60000.tpdm
+[    0.136310][7:1:swapper/0] amba 10c0a000.funnel: Fixing up cyclic dependency with 10832000.funnel
+[    0.136333][7:1:swapper/0] amba 10846000.funnel: Fixing up cyclic dependency with 10844000.tpdm
+[    0.136358][7:1:swapper/0] amba 10d22000.funnel: Fixing up cyclic dependency with 10d20000.tpdm
+[    0.136382][7:1:swapper/0] amba 10d32000.funnel: Fixing up cyclic dependency with 10d30000.tpdm
+[    0.136419][7:1:swapper/0] amba 10d0a000.funnel: Fixing up cyclic dependency with soc:gladiator
+[    0.136426][7:1:swapper/0] amba 10d0a000.funnel: Fixing up cyclic dependency with 10d09000.tpda
+[    0.136460][7:1:swapper/0] amba 10d03000.funnel: Fixing up cyclic dependency with 10d0a000.funnel
+[    0.136467][7:1:swapper/0] amba 10d03000.funnel: Fixing up cyclic dependency with 10d22000.funnel
+[    0.136472][7:1:swapper/0] amba 10d03000.funnel: Fixing up cyclic dependency with 10d32000.funnel
+[    0.136498][7:1:swapper/0] amba 10984000.funnel: Fixing up cyclic dependency with soc:turing_etm0
+[    0.136532][7:1:swapper/0] amba 10983000.funnel: Fixing up cyclic dependency with 10984000.funnel
+[    0.136538][7:1:swapper/0] amba 10983000.funnel: Fixing up cyclic dependency with soc:tpdm_turing_llm
+[    0.136544][7:1:swapper/0] amba 10983000.funnel: Fixing up cyclic dependency with 10980000.tpdm
+[    0.136580][7:1:swapper/0] amba 10c3a000.funnel: Fixing up cyclic dependency with 10c39000.tpdm
+[    0.136587][7:1:swapper/0] amba 10c3a000.funnel: Fixing up cyclic dependency with 10c38000.tpdm
+[    0.136594][7:1:swapper/0] amba 10c3a000.funnel: Fixing up cyclic dependency with 10c0a000.funnel
+[    0.136620][7:1:swapper/0] amba 109c1000.tpda: Fixing up cyclic dependency with 109c0000.tpdm
+[    0.136644][7:1:swapper/0] amba 109c2000.funnel: Fixing up cyclic dependency with 109c1000.tpda
+[    0.136668][7:1:swapper/0] amba 10cc4000.tpda: Fixing up cyclic dependency with 10cc1000.tpdm
+[    0.136695][7:1:swapper/0] amba 10cc5000.funnel: Fixing up cyclic dependency with 10cc4000.tpda
+[    0.136720][7:1:swapper/0] amba 10ac1000.tpda: Fixing up cyclic dependency with 10ac0000.tpdm
+[    0.136748][7:1:swapper/0] amba 10ac2000.funnel: Fixing up cyclic dependency with 10cc5000.funnel
+[    0.136754][7:1:swapper/0] amba 10ac2000.funnel: Fixing up cyclic dependency with 10ac1000.tpda
+[    0.136780][7:1:swapper/0] amba 10803000.tpda: Fixing up cyclic dependency with 10800000.tpdm
+[    0.136805][7:1:swapper/0] amba 1080d000.funnel: Fixing up cyclic dependency with soc:modem_etm0
+[    0.136833][7:1:swapper/0] amba 1080c000.funnel: Fixing up cyclic dependency with soc:modem_diag
+[    0.136839][7:1:swapper/0] amba 1080c000.funnel: Fixing up cyclic dependency with 1080d000.funnel
+[    0.136873][7:1:swapper/0] amba 10804000.funnel: Fixing up cyclic dependency with 1080c000.funnel
+[    0.136881][7:1:swapper/0] amba 10804000.funnel: Fixing up cyclic dependency with 10803000.tpda
+[    0.136887][7:1:swapper/0] amba 10804000.funnel: Fixing up cyclic dependency with soc:modem2_etm0
+[    0.136931][7:1:swapper/0] amba 13863000.tpda: Fixing up cyclic dependency with 13861000.tpdm
+[    0.136937][7:1:swapper/0] amba 13863000.tpda: Fixing up cyclic dependency with 138c0000.tpdm
+[    0.136944][7:1:swapper/0] amba 13863000.tpda: Fixing up cyclic dependency with 13860000.tpdm
+[    0.136950][7:1:swapper/0] amba 13863000.tpda: Fixing up cyclic dependency with 138b0000.tpdm
+[    0.136956][7:1:swapper/0] amba 13863000.tpda: Fixing up cyclic dependency with 138a0000.tpdm
+[    0.136983][7:1:swapper/0] amba 13810000.funnel: Fixing up cyclic dependency with 13863000.tpda
+[    0.137048][7:1:swapper/0] amba 10c2b000.tpda: Fixing up cyclic dependency with 1082c000.tpdm
+[    0.137056][7:1:swapper/0] amba 10c2b000.tpda: Fixing up cyclic dependency with 10846000.funnel
+[    0.137063][7:1:swapper/0] amba 10c2b000.tpda: Fixing up cyclic dependency with 10d03000.funnel
+[    0.137070][7:1:swapper/0] amba 10c2b000.tpda: Fixing up cyclic dependency with 10c29000.tpdm
+[    0.137076][7:1:swapper/0] amba 10c2b000.tpda: Fixing up cyclic dependency with 109d0000.tpdm
+[    0.137082][7:1:swapper/0] amba 10c2b000.tpda: Fixing up cyclic dependency with 10c28000.tpdm
+[    0.137088][7:1:swapper/0] amba 10c2b000.tpda: Fixing up cyclic dependency with 10841000.tpdm
+[    0.137095][7:1:swapper/0] amba 10c2b000.tpda: Fixing up cyclic dependency with 10902000.funnel
+[    0.137101][7:1:swapper/0] amba 10c2b000.tpda: Fixing up cyclic dependency with 10983000.funnel
+[    0.137108][7:1:swapper/0] amba 10c2b000.tpda: Fixing up cyclic dependency with 10c3a000.funnel
+[    0.137148][7:1:swapper/0] amba 10c2c000.funnel: Fixing up cyclic dependency with 10902000.funnel
+[    0.137155][7:1:swapper/0] amba 10c2c000.funnel: Fixing up cyclic dependency with 10983000.funnel
+[    0.137163][7:1:swapper/0] amba 10c2c000.funnel: Fixing up cyclic dependency with 10d03000.funnel
+[    0.137168][7:1:swapper/0] amba 10c2c000.funnel: Fixing up cyclic dependency with 10c2b000.tpda
+[    0.137198][7:1:swapper/0] amba 10004000.tpda: Fixing up cyclic dependency with 10003000.tpdm
+[    0.137205][7:1:swapper/0] amba 10004000.tpda: Fixing up cyclic dependency with 1000f000.tpdm
+[    0.137237][7:1:swapper/0] amba 10041000.funnel: Fixing up cyclic dependency with 10004000.tpda
+[    0.137243][7:1:swapper/0] amba 10041000.funnel: Fixing up cyclic dependency with 10002000.stm
+[    0.137250][7:1:swapper/0] amba 10041000.funnel: Fixing up cyclic dependency with soc:snoc
+[    0.137294][7:1:swapper/0] amba 10042000.funnel: Fixing up cyclic dependency with 10c2c000.funnel
+[    0.137301][7:1:swapper/0] amba 10042000.funnel: Fixing up cyclic dependency with 10804000.funnel
+[    0.137307][7:1:swapper/0] amba 10042000.funnel: Fixing up cyclic dependency with 13810000.funnel
+[    0.137313][7:1:swapper/0] amba 10042000.funnel: Fixing up cyclic dependency with 10ac2000.funnel
+[    0.137319][7:1:swapper/0] amba 10042000.funnel: Fixing up cyclic dependency with 109c2000.funnel
+[    0.137350][7:1:swapper/0] amba 10045000.funnel: Fixing up cyclic dependency with 10041000.funnel
+[    0.137356][7:1:swapper/0] amba 10045000.funnel: Fixing up cyclic dependency with 10042000.funnel
+[    0.137398][7:1:swapper/0] amba 10b08000.tpda: Fixing up cyclic dependency with 10b0d000.tpdm
+[    0.137404][7:1:swapper/0] amba 10b08000.tpda: Fixing up cyclic dependency with 10b0c000.tpdm
+[    0.137409][7:1:swapper/0] amba 10b08000.tpda: Fixing up cyclic dependency with 10b0b000.tpdm
+[    0.137415][7:1:swapper/0] amba 10b08000.tpda: Fixing up cyclic dependency with 10b0a000.tpdm
+[    0.137421][7:1:swapper/0] amba 10b08000.tpda: Fixing up cyclic dependency with 10b09000.tpdm
+[    0.137462][7:1:swapper/0] amba 10b04000.funnel: Fixing up cyclic dependency with 10b08000.tpda
+[    0.137469][7:1:swapper/0] amba 10b04000.funnel: Fixing up cyclic dependency with 10045000.funnel
+[    0.137475][7:1:swapper/0] amba 10b04000.funnel: Fixing up cyclic dependency with soc:funnel@10b44000
+[    0.137493][7:1:swapper/0] amba 10b04000.funnel: Fixing up cyclic dependency with soc:funnel@10b23000
+[    0.137528][7:1:swapper/0] amba 10b05000.tmc: Fixing up cyclic dependency with 10b04000.funnel
+[    0.137562][7:1:swapper/0] amba 10b06000.replicator: Fixing up cyclic dependency with soc:dummy_sink
+[    0.137568][7:1:swapper/0] amba 10b06000.replicator: Fixing up cyclic dependency with 10b05000.tmc
+[    0.137593][7:1:swapper/0] amba 10046000.replicator: Fixing up cyclic dependency with 10b06000.replicator
+[    0.137618][7:1:swapper/0] amba 1004e000.replicator: Fixing up cyclic dependency with 10046000.replicator
+[    0.137649][7:1:swapper/0] amba 10048000.tmc: Fixing up cyclic dependency with 1004e000.replicator
+[    0.137687][7:1:swapper/0] amba 1004f000.tmc: Fixing up cyclic dependency with 1004e000.replicator
+[    0.138284][7:1:swapper/0] platform soc:funnel_ete: Fixing up cyclic dependency with soc:ete7
+[    0.138291][7:1:swapper/0] platform soc:funnel_ete: Fixing up cyclic dependency with soc:ete6
+[    0.138299][7:1:swapper/0] platform soc:funnel_ete: Fixing up cyclic dependency with soc:ete5
+[    0.138305][7:1:swapper/0] platform soc:funnel_ete: Fixing up cyclic dependency with soc:ete4
+[    0.138312][7:1:swapper/0] platform soc:funnel_ete: Fixing up cyclic dependency with soc:ete3
+[    0.138319][7:1:swapper/0] platform soc:funnel_ete: Fixing up cyclic dependency with soc:ete2
+[    0.138326][7:1:swapper/0] platform soc:funnel_ete: Fixing up cyclic dependency with soc:ete1
+[    0.138334][7:1:swapper/0] platform soc:funnel_ete: Fixing up cyclic dependency with soc:ete0
+[    0.138341][7:1:swapper/0] platform soc:funnel_ete: Fixing up cyclic dependency with 13810000.funnel
+[    0.143626][7:1:swapper/0]   143.621041: initcall: (__initstub__kmod_platform__456_546_of_platform_default_populate_init    26.090990ms
+[    0.145490][7:1:swapper/0] iommu: Default domain type: Translated 
+[    0.145503][7:1:swapper/0] iommu: DMA domain TLB invalidation policy: strict mode 
+[    0.145600][7:1:swapper/0] SCSI subsystem initialized
+[    0.145623][7:1:swapper/0] usbcore: registered new interface driver usbfs
+[    0.145629][7:1:swapper/0] usbcore: registered new interface driver hub
+[    0.145635][7:1:swapper/0] usbcore: registered new device driver usb
+[    0.145653][7:1:swapper/0] mc: Linux media interface: v0.10
+[    0.145658][7:1:swapper/0] videodev: Linux video capture interface: v2.00
+[    0.145673][7:1:swapper/0] pps_core: LinuxPPS API ver. 1 registered
+[    0.145676][7:1:swapper/0] pps_core: Software ver. 5.3.6 - Copyright 2005-2007 Rodolfo Giometti <giometti@linux.it>
+[    0.145679][7:1:swapper/0] PTP clock support registered
+[    0.145685][7:1:swapper/0] EDAC MC: Ver: 3.0.0
+[    0.145799][7:1:swapper/0] CPUidle PSCI: Initialized CPU PM domain topology
+[    0.145988][7:1:swapper/0] Advanced Linux Sound Architecture Driver Initialized.
+[    0.146080][7:1:swapper/0] Bluetooth: Core ver 2.22
+[    0.146086][7:1:swapper/0] NET: Registered PF_BLUETOOTH protocol family
+[    0.146089][7:1:swapper/0] Bluetooth: HCI device and connection manager initialized
+[    0.146092][7:1:swapper/0] Bluetooth: HCI socket layer initialized
+[    0.146095][7:1:swapper/0] Bluetooth: L2CAP socket layer initialized
+[    0.146100][7:1:swapper/0] Bluetooth: SCO socket layer initialized
+[    0.146133][7:1:swapper/0] nfc: nfc_init: NFC Core ver 0.1
+[    0.146140][7:1:swapper/0] NET: Registered PF_NFC protocol family
+[    0.146272][3:37:cpuhp/3] CPU features: Asymmetric 32-bit EL0 support detected on CPU 3; CPU hot-unplug disabled on CPU 0
+[    0.146431][7:1:swapper/0] clocksource: Switched to clocksource arch_sys_counter
+[    0.152288][7:1:swapper/0] VFS: Disk quotas dquot_6.6.0
+[    0.152303][7:1:swapper/0] VFS: Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+[    0.152432][7:1:swapper/0] NET: Registered PF_INET protocol family
+[    0.152565][7:1:swapper/0] IP idents hash table entries: 262144 (order: 9, 2097152 bytes, linear)
+[    0.154005][7:1:swapper/0] tcp_listen_portaddr_hash hash table entries: 8192 (order: 5, 131072 bytes, linear)
+[    0.154037][7:1:swapper/0] Table-perturb hash table entries: 65536 (order: 6, 262144 bytes, linear)
+[    0.154082][7:1:swapper/0] TCP established hash table entries: 131072 (order: 8, 1048576 bytes, linear)
+[    0.154198][7:1:swapper/0] TCP bind hash table entries: 65536 (order: 8, 1048576 bytes, linear)
+[    0.154473][7:1:swapper/0] TCP: Hash tables configured (established 131072 bind 65536)
+[    0.154511][7:1:swapper/0] UDP hash table entries: 8192 (order: 6, 262144 bytes, linear)
+[    0.154539][7:1:swapper/0] UDP-Lite hash table entries: 8192 (order: 6, 262144 bytes, linear)
+[    0.154579][7:1:swapper/0] NET: Registered PF_UNIX/PF_LOCAL protocol family
+[    0.154588][7:1:swapper/0] NET: Registered PF_XDP protocol family
+[    0.154593][7:1:swapper/0] PCI: CLS 0 bytes, default 64
+[    0.154944][1:10:kworker/u16:1] Trying to unpack rootfs image as initramfs...
+[    0.170644][7:1:swapper/0]   170.638280: initcall: (__initstub__kmod_cpuinfo__302_328_cpuinfo_regs_init6)    16.009218ms
+[    0.170888][7:1:swapper/0] hw perfevents: enabled with armv8_pmuv3 PMU driver, 7 counters available
+[    0.171207][7:1:swapper/0] kvm [1]: HYP mode not available
+[    0.171502][7:1:swapper/0] Initialise system trusted keyrings
+[    0.171587][7:1:swapper/0] workingset: timestamp_bits=46 max_order=22 bucket_order=0
+[    0.172475][7:1:swapper/0] fuse: init (API version 7.36)
+[    0.182420][7:1:swapper/0] Key type asymmetric registered
+[    0.182435][7:1:swapper/0] Asymmetric key parser 'x509' registered
+[    0.182462][7:1:swapper/0] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 239)
+[    0.182471][7:1:swapper/0] io scheduler mq-deadline registered
+[    0.182474][7:1:swapper/0] io scheduler kyber registered
+[    0.182490][7:1:swapper/0] io scheduler bfq registered
+[    0.185793][7:1:swapper/0] brd: module loaded
+[    0.187585][7:1:swapper/0] loop: module loaded
+[    0.187963][7:1:swapper/0] wireguard: WireGuard 1.0.0 loaded. See www.wireguard.com for information.
+[    0.187967][7:1:swapper/0] wireguard: Copyright (C) 2015-2019 Jason A. Donenfeld <Jason@zx2c4.com>. All Rights Reserved.
+[    0.188037][7:1:swapper/0] MACsec IEEE 802.1AE
+[    0.188127][7:1:swapper/0] tun: Universal TUN/TAP device driver, 1.6
+[    0.188138][7:1:swapper/0] CAN device driver interface
+[    0.188140][7:1:swapper/0] PPP generic driver version 2.4.2
+[    0.188151][7:1:swapper/0] PPP BSD Compression module registered
+[    0.188153][7:1:swapper/0] PPP Deflate Compression module registered
+[    0.188164][7:1:swapper/0] PPP MPPE Compression module registered
+[    0.188166][7:1:swapper/0] NET: Registered PF_PPPOX protocol family
+[    0.188168][7:1:swapper/0] PPTP driver version 0.8.5
+[    0.188231][7:1:swapper/0] usbcore: registered new interface driver rtl8150
+[    0.188238][7:1:swapper/0] usbcore: registered new interface driver r8152
+[    0.188244][7:1:swapper/0] usbcore: registered new interface driver asix
+[    0.188248][7:1:swapper/0] usbcore: registered new interface driver ax88179_178a
+[    0.188253][7:1:swapper/0] usbcore: registered new interface driver cdc_ether
+[    0.188257][7:1:swapper/0] usbcore: registered new interface driver cdc_eem
+[    0.188264][7:1:swapper/0] usbcore: registered new interface driver cdc_ncm
+[    0.188268][7:1:swapper/0] usbcore: registered new interface driver aqc111
+[    0.188272][7:1:swapper/0] usbcore: registered new interface driver r8153_ecm
+[    0.188475][7:1:swapper/0] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    0.188478][7:1:swapper/0] ehci-pci: EHCI PCI platform driver
+[    0.188485][7:1:swapper/0] ehci-platform: EHCI generic platform driver
+[    0.188674][7:1:swapper/0] usbcore: registered new interface driver cdc_acm
+[    0.188676][7:1:swapper/0] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+[    0.188716][7:1:swapper/0] usbcore: registered new interface driver uas
+[    0.188724][7:1:swapper/0] usbcore: registered new interface driver usb-storage
+[    0.188775][7:1:swapper/0] usbcore: registered new interface driver xpad
+[    0.188821][7:1:swapper/0] usbcore: registered new interface driver uvcvideo
+[    0.188823][7:1:swapper/0] gspca_main: v2.14.0 registered
+[    0.188942][7:1:swapper/0] device-mapper: uevent: version 1.0.3
+[    0.188971][7:1:swapper/0] device-mapper: ioctl: 4.45.0-ioctl (2021-03-22) initialised: dm-devel@redhat.com
+[    0.189031][7:1:swapper/0] Bluetooth: HCI UART driver ver 2.3
+[    0.189035][7:1:swapper/0] Bluetooth: HCI UART protocol H4 registered
+[    0.189041][7:1:swapper/0] Bluetooth: HCI UART protocol LL registered
+[    0.189063][7:1:swapper/0] Bluetooth: HCI UART protocol Broadcom registered
+[    0.189068][7:1:swapper/0] Bluetooth: HCI UART protocol QCA registered
+[    0.189363][7:1:swapper/0] sdhci: Secure Digital Host Controller Interface driver
+[    0.189366][7:1:swapper/0] sdhci: Copyright(c) Pierre Ossman
+[    0.189369][7:1:swapper/0] sdhci-pltfm: SDHCI platform and OF driver helper
+[    0.189464][7:1:swapper/0] SMCCC: SOC_ID: ARCH_SOC_ID not implemented, skipping ....
+[    0.189473][7:1:swapper/0] hid: raw HID events driver (C) Jiri Kosina
+[    0.189596][7:1:swapper/0] usbcore: registered new interface driver usbhid
+[    0.189598][7:1:swapper/0] usbhid: USB HID core driver
+[    0.189630][7:1:swapper/0] ashmem: initialized
+[    0.189733][7:1:swapper/0] gnss: GNSS driver registered with major 508
+[    0.190220][7:1:swapper/0] usbcore: registered new interface driver snd-usb-audio
+[    0.190301][7:1:swapper/0] GACT probability NOT on
+[    0.190309][7:1:swapper/0] Mirror/redirect action on
+[    0.190317][7:1:swapper/0] netem: version 1.3
+[    0.190330][7:1:swapper/0] u32 classifier
+[    0.190333][7:1:swapper/0]     input device check on
+[    0.190335][7:1:swapper/0]     Actions configured
+[    0.190715][7:1:swapper/0] xt_time: kernel timezone is -0000
+[    0.190747][7:1:swapper/0] ipip: IPv4 and MPLS over IPv4 tunneling driver
+[    0.190819][7:1:swapper/0] gre: GRE over IPv4 demultiplexor driver
+[    0.190821][7:1:swapper/0] ip_gre: GRE over IPv4 tunneling driver
+[    0.190925][7:1:swapper/0] IPv4 over IPsec tunneling driver
+[    0.190974][7:1:swapper/0] Initializing XFRM netlink socket
+[    0.190979][7:1:swapper/0] IPsec XFRM device driver
+[    0.191036][7:1:swapper/0] NET: Registered PF_INET6 protocol family
+[    0.191262][7:1:swapper/0] Segment Routing with IPv6
+[    0.191268][7:1:swapper/0] In-situ OAM (IOAM) with IPv6
+[    0.191291][7:1:swapper/0] mip6: Mobile IPv6
+[    0.191362][7:1:swapper/0] sit: IPv6, IPv4 and MPLS over IPv4 tunneling driver
+[    0.191444][7:1:swapper/0] ip6_gre: GRE over IPv6 tunneling driver
+[    0.191484][7:1:swapper/0] NET: Registered PF_PACKET protocol family
+[    0.191490][7:1:swapper/0] NET: Registered PF_KEY protocol family
+[    0.191503][7:1:swapper/0] can: controller area network core
+[    0.191517][7:1:swapper/0] NET: Registered PF_CAN protocol family
+[    0.191520][7:1:swapper/0] can: raw protocol
+[    0.191523][7:1:swapper/0] can: broadcast manager protocol
+[    0.191526][7:1:swapper/0] can: netlink gateway - max_hops=1
+[    0.191569][7:1:swapper/0] Bluetooth: RFCOMM TTY layer initialized
+[    0.191573][7:1:swapper/0] Bluetooth: RFCOMM socket layer initialized
+[    0.191578][7:1:swapper/0] Bluetooth: RFCOMM ver 1.11
+[    0.191581][7:1:swapper/0] Bluetooth: HIDP (Human Interface Emulation) ver 1.2
+[    0.191583][7:1:swapper/0] Bluetooth: HIDP socket layer initialized
+[    0.191589][7:1:swapper/0] l2tp_core: L2TP core driver, V2.0
+[    0.191592][7:1:swapper/0] l2tp_ppp: PPPoL2TP kernel driver, V2.0
+[    0.191594][7:1:swapper/0] 8021q: 802.1Q VLAN Support v1.8
+[    0.191599][7:1:swapper/0] tipc: Activated (version 2.0.0)
+[    0.191621][7:1:swapper/0] NET: Registered PF_TIPC protocol family
+[    0.191637][7:1:swapper/0] tipc: Started in single node mode
+[    0.191664][7:1:swapper/0] NET: Registered PF_IEEE802154 protocol family
+[    0.191693][7:1:swapper/0] NET: Registered PF_VSOCK protocol family
+[    0.191906][7:1:swapper/0] registered taskstats version 1
+[    0.191911][7:1:swapper/0] Loading compiled-in X.509 certificates
+[    0.192004][4:111:cryptomgr_probe] cryptomgr_probe (111) used greatest stack depth: 14960 bytes left
+[    0.192286][7:1:swapper/0] Loaded X.509 cert 'Build time autogenerated kernel key: b08cec9c29ef80859e406f100c148939747a8de8'
+[    0.193631][7:1:swapper/0] page_owner is disabled
+[    0.193763][7:1:swapper/0] Key type .fscrypt registered
+[    0.193765][7:1:swapper/0] Key type fscrypt-provisioning registered
+[    0.193788][7:1:swapper/0] pstore: Invalid compression size for deflate: 0
+[    0.195575][7:1:swapper/0] ALSA device list:
+[    0.195580][7:1:swapper/0]   No soundcards found.
+[    0.220187][3:10:kworker/u16:1] Freeing initrd memory: 12392K
+[    0.220250][7:1:swapper/0] Warning: unable to open an initial console.
+[    0.220518][7:1:swapper/0] Freeing unused kernel memory: 2496K
+[    0.239436][7:1:swapper/0] Run /init as init process
+[    0.240688][3:1:init] init: init first stage started!
+[    0.242395][3:1:init] init: Loading module /lib/modules/mz_bootprof.ko with args ''
+[    0.242495][3:1:init] mz_bootprof: module verification failed: signature and/or required key missing - tainting kernel
+[    0.271679][3:1:init] BOOTPROF:       271.678906: ON (TH:15)
+[    0.271694][3:1:init] BOOTPROF:       271.694218:Kernel_init_done
+[    0.271779][3:1:init] init: Loaded kernel module /lib/modules/mz_bootprof.ko
+[    0.271846][3:1:init] init: Loading module /lib/modules/mz_freq_qos.ko with args ''
+[    0.273013][3:1:init] mz_freq_qos: mz_freq_qos_init enter
+[    0.273066][3:1:init] init: Loaded kernel module /lib/modules/mz_freq_qos.ko
+[    0.273158][3:1:init] init: Loading module /lib/modules/qcom_hwspinlock.ko with args ''
+[    0.274895][3:1:init] init: Loaded kernel module /lib/modules/qcom_hwspinlock.ko
+[    0.274918][3:1:init] init: Loading module /lib/modules/smem.ko with args ''
+[    0.276294][3:1:init] init: Loaded kernel module /lib/modules/smem.ko
+[    0.276348][3:1:init] init: Loading module /lib/modules/minidump.ko with args ''
+[    0.279643][7:1:init] Minidump: Enabled with max number of regions 200
+[    0.282242][7:1:init] qcom-scm: __get_convention: qcom_scm: convention: smc arm 64
+[    0.282488][7:1:init] qtee shmbridge registered default bridge with size 4194304 bytes
+[    0.283088][7:1:init] shmbridge is enabled
+[    0.284237][7:1:init] qcom-scm: scm_mem_protection_init_do: SCM call failed 0, resp 7
+[    0.284240][7:1:init] MEM protection Not enabled, 7
+[    0.285557][7:1:init] [MZ_WD] mz_wd_init: start!
+[    0.285561][7:1:init] [MZ_WD] init_mz_watchdog: start
+[    0.288961][7:1:init] gh-watchdog hypervisor:qcom,gh-watchdog: QCOM Apps Watchdog Initialized
+[    0.310092][7:1:init] v0.18, id=519, ver=2.0, raw_id=458, raw_ver=2, hw_plat=8, hw_plat_ver=65536
+[    0.310092][7:1:init]  accessory_chip=0, hw_plat_subtype=0, pmic_model=65610, pmic_die_revision=131073 foundry_id=1 serial_number=3272104390 num_pmics=9 chip_family=0x7f raw_device_family=0xa raw_device_number=0x3 nproduct_id=0x437 num_clusters=0x1 ncluster_array_offset=0xcc num_subset_parts=0x11 nsubset_parts_array_offset=0xd0 nmodem_supported=0xffffffff feature_code=0x2 pcode=0x1 sku=KALAMA-1-AB hw_plat_oem_variant=0 num_kvps=0 kvps_offset=392
+[    0.330606][7:1:init] pm_v6e_s1_level: supplied by pm_v6e_s6_mmcx_sup_level
+[    0.331174][4:10:kworker/u16:1] gpu_cc_cx_gdsc: supplied by pm_v6e_s6_level
+[    0.332860][7:1:init] pm_v8_s5_mmcx_voter_level: supplied by pm_v6e_s1_level
+[    0.332896][7:1:init] pm_v8_s5_gfx_voter_level: supplied by pm_v6d_s5_level
+[    0.333390][7:1:init] rpmh_regulator_probe: ldob4: could not find RPMh address for resource
+[    0.339860][4:10:kworker/u16:1] gcc-kalama 100000.clock-controller: Registered GCC clocks
+[    0.340962][7:1:init] rpmh_regulator_probe: ldol3: could not find RPMh address for resource
+[    0.340975][7:1:init] rpmh_regulator_probe: ldol4: could not find RPMh address for resource
+[    0.340985][7:1:init] rpmh_regulator_probe: ldol5: could not find RPMh address for resource
+[    0.340995][7:1:init] rpmh_regulator_probe: ldol6: could not find RPMh address for resource
+[    0.341004][7:1:init] rpmh_regulator_probe: ldol7: could not find RPMh address for resource
+[    0.341013][7:1:init] rpmh_regulator_probe: ldom1: could not find RPMh address for resource
+[    0.341024][7:1:init] rpmh_regulator_probe: ldom2: could not find RPMh address for resource
+[    0.341033][7:1:init] rpmh_regulator_probe: ldom3: could not find RPMh address for resource
+[    0.341042][7:1:init] rpmh_regulator_probe: ldom4: could not find RPMh address for resource
+[    0.341051][7:1:init] rpmh_regulator_probe: ldom5: could not find RPMh address for resource
+[    0.341060][7:1:init] rpmh_regulator_probe: ldom6: could not find RPMh address for resource
+[    0.341070][7:1:init] rpmh_regulator_probe: ldom7: could not find RPMh address for resource
+[    0.341080][7:1:init] rpmh_regulator_probe: ldon1: could not find RPMh address for resource
+[    0.341089][7:1:init] rpmh_regulator_probe: ldon2: could not find RPMh address for resource
+[    0.341099][7:1:init] rpmh_regulator_probe: ldon3: could not find RPMh address for resource
+[    0.341108][7:1:init] rpmh_regulator_probe: ldon4: could not find RPMh address for resource
+[    0.341118][7:1:init] rpmh_regulator_probe: ldon5: could not find RPMh address for resource
+[    0.341126][7:1:init] rpmh_regulator_probe: ldon6: could not find RPMh address for resource
+[    0.341136][7:1:init] rpmh_regulator_probe: ldon7: could not find RPMh address for resource
+[    0.342510][7:1:init] 
+[    0.342513][7:1:init] **********************************************************
+[    0.342515][7:1:init] **   NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE   **
+[    0.342517][7:1:init] **                                                      **
+[    0.342519][7:1:init] ** trace_printk() being used. Allocating extra memory.  **
+[    0.342520][7:1:init] **                                                      **
+[    0.342522][7:1:init] ** This means that this is a DEBUG kernel and it is     **
+[    0.342524][7:1:init] ** unsafe for production use.                           **
+[    0.342526][7:1:init] **                                                      **
+[    0.342528][7:1:init] ** If you see this message and you are not debugging    **
+[    0.342529][7:1:init] ** the kernel, report this immediately to your vendor!  **
+[    0.342531][7:1:init] **                                                      **
+[    0.342533][7:1:init] **   NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE NOTICE   **
+[    0.342534][7:1:init] **********************************************************
+[    0.344963][4:10:kworker/u16:1] cam_cc-kalama ade0000.clock-controller: Registered CAM CC clocks
+[    0.346126][4:10:kworker/u16:1] cam_cc_bps_gdsc: supplied by pm_v8_s5_mmcx_voter_level
+[    0.346275][4:10:kworker/u16:1] cam_cc_ife_0_gdsc: supplied by pm_v8_s5_mmcx_voter_level
+[    0.346361][4:10:kworker/u16:1] cam_cc_ife_1_gdsc: supplied by pm_v8_s5_mmcx_voter_level
+[    0.346405][7:1:init] mz_freq_qos: qos_add_request __enter cpufreq_online+0x9dc/0xd7c
+[    0.346415][7:1:init] mz_freq_qos: qos_add_request 1 ra 1/init (cpufreq_online+0x9dc/0xd7c) (cpufreq_online) (policy_qos) req 0xffffff800696ac00
+[    0.346420][7:1:init] mz_freq_qos: qos_add_request __enter cpufreq_online+0x9fc/0xd7c
+[    0.346423][7:1:init] mz_freq_qos: qos_add_request 2 ra 1/init (cpufreq_online+0x9fc/0xd7c) (cpufreq_online) (policy_qos) req 0xffffff800696ac48
+[    0.346462][4:10:kworker/u16:1] cam_cc_ife_2_gdsc: supplied by pm_v8_s5_mmcx_voter_level
+[    0.346516][7:1:init] cpu cpu0: EM: created perf domain
+[    0.346530][7:1:init] mz_freq_qos: qos_add_request __enter __cpufreq_cooling_register+0x20c/0x2fc
+[    0.346535][7:1:init] mz_freq_qos: qos_add_request 3 ra 1/init (__cpufreq_cooling_register+0x20c/0x2fc) (__cpufreq_cooling_register) (cooling) req 0xffffff800696a858
+[    0.346551][4:10:kworker/u16:1] cam_cc_ipe_0_gdsc: supplied by pm_v8_s5_mmcx_voter_level
+[    0.346642][4:10:kworker/u16:1] cam_cc_sbi_gdsc: supplied by pm_v8_s5_mmcx_voter_level
+[    0.346730][4:10:kworker/u16:1] cam_cc_sfe_0_gdsc: supplied by pm_v8_s5_mmcx_voter_level
+[    0.346821][4:10:kworker/u16:1] cam_cc_sfe_1_gdsc: supplied by pm_v8_s5_mmcx_voter_level
+[    0.346951][4:10:kworker/u16:1] disp_cc_mdss_core_gdsc: supplied by pm_v6e_s1_level
+[    0.347302][4:10:kworker/u16:1] disp_cc_mdss_core_int2_gdsc: supplied by pm_v6e_s1_level
+[    0.347479][4:10:kworker/u16:1] gcc_pcie_0_gdsc: supplied by pm_v6e_s6_level
+[    0.347551][7:1:init] mz_freq_qos: qos_add_request __enter cpufreq_online+0x9dc/0xd7c
+[    0.347557][7:1:init] mz_freq_qos: qos_add_request 4 ra 1/init (cpufreq_online+0x9dc/0xd7c) (cpufreq_online) (policy_qos) req 0xffffff800696d400
+[    0.347560][7:1:init] mz_freq_qos: qos_add_request __enter cpufreq_online+0x9fc/0xd7c
+[    0.347564][7:1:init] mz_freq_qos: qos_add_request 5 ra 1/init (cpufreq_online+0x9fc/0xd7c) (cpufreq_online) (policy_qos) req 0xffffff800696d448
+[    0.347575][4:10:kworker/u16:1] gcc_pcie_0_phy_gdsc: supplied by pm_v6e_s3_level
+[    0.347648][7:1:init] cpu cpu3: EM: created perf domain
+[    0.347657][7:1:init] mz_freq_qos: qos_add_request __enter __cpufreq_cooling_register+0x20c/0x2fc
+[    0.347660][4:10:kworker/u16:1] gcc_pcie_1_gdsc: supplied by pm_v6e_s6_level
+[    0.347661][7:1:init] mz_freq_qos: qos_add_request 6 ra 1/init (__cpufreq_cooling_register+0x20c/0x2fc) (__cpufreq_cooling_register) (cooling) req 0xffffff800696d558
+[    0.347740][4:10:kworker/u16:1] gcc_pcie_1_phy_gdsc: supplied by pm_v6e_s3_level
+[    0.347825][4:10:kworker/u16:1] gcc_ufs_mem_phy_gdsc: supplied by pm_v6e_s3_level
+[    0.347907][4:10:kworker/u16:1] gcc_ufs_phy_gdsc: supplied by pm_v6e_s6_level
+[    0.348192][4:10:kworker/u16:1] gcc_usb3_phy_gdsc: supplied by pm_v6e_s3_level
+[    0.348534][4:10:kworker/u16:1] gpu_cc_gx_gdsc: supplied by pm_v8_s5_gfx_voter_level
+[    0.348632][7:1:init] mz_freq_qos: qos_add_request __enter cpufreq_online+0x9dc/0xd7c
+[    0.348637][7:1:init] mz_freq_qos: qos_add_request 7 ra 1/init (cpufreq_online+0x9dc/0xd7c) (cpufreq_online) (policy_qos) req 0xffffff800696c800
+[    0.348640][7:1:init] mz_freq_qos: qos_add_request __enter cpufreq_online+0x9fc/0xd7c
+[    0.348643][7:1:init] mz_freq_qos: qos_add_request 8 ra 1/init (cpufreq_online+0x9fc/0xd7c) (cpufreq_online) (policy_qos) req 0xffffff800696c848
+[    0.348647][4:10:kworker/u16:1] video_cc_mvs0c_gdsc: supplied by pm_v8_s5_mmcx_voter_level
+[    0.348744][4:10:kworker/u16:1] video_cc_mvs1c_gdsc: supplied by pm_v8_s5_mmcx_voter_level
+[    0.348976][4:10:kworker/u16:1] video_cc_mvs0_gdsc: supplied by video_cc_mvs0c_gdsc
+[    0.349106][4:10:kworker/u16:1] video_cc_mvs1_gdsc: supplied by video_cc_mvs1c_gdsc
+[    0.349207][7:1:init] cpu cpu7: EM: created perf domain
+[    0.349220][7:1:init] mz_freq_qos: qos_add_request __enter __cpufreq_cooling_register+0x20c/0x2fc
+[    0.349225][7:1:init] mz_freq_qos: qos_add_request 9 ra 1/init (__cpufreq_cooling_register+0x20c/0x2fc) (__cpufreq_cooling_register) (cooling) req 0xffffff800696dd58
+[    0.350415][7:121:kworker/7:3] mz_thermal_boost: cpufreq_policy_num , 3
+[    0.359068][7:121:kworker/7:3] mz_freq_qos: qos_add_request __enter input_boost_init+0x12c/0x1b0 [sched_walt]
+[    0.359126][7:121:kworker/7:3] mz_freq_qos: qos_add_request 10 ra 121/kworker/7:3 (input_boost_init+0x12c/0x1b0 [sched_walt]) (input_boost_init [sched_walt]) (walt_input_boost) req 0xffffff8b7809c0c8
+[    0.359157][7:121:kworker/7:3] mz_freq_qos: qos_add_request __enter input_boost_init+0x12c/0x1b0 [sched_walt]
+[    0.359199][7:121:kworker/7:3] mz_freq_qos: qos_add_request 11 ra 121/kworker/7:3 (input_boost_init+0x12c/0x1b0 [sched_walt]) (input_boost_init [sched_walt]) (walt_input_boost) req 0xffffff8b780b90c8
+[    0.359229][7:121:kworker/7:3] mz_freq_qos: qos_add_request __enter input_boost_init+0x12c/0x1b0 [sched_walt]
+[    0.359270][7:121:kworker/7:3] mz_freq_qos: qos_add_request 12 ra 121/kworker/7:3 (input_boost_init+0x12c/0x1b0 [sched_walt]) (input_boost_init [sched_walt]) (walt_input_boost) req 0xffffff8b780d60c8
+[    0.359298][7:121:kworker/7:3] mz_freq_qos: qos_add_request __enter input_boost_init+0x12c/0x1b0 [sched_walt]
+[    0.359340][7:121:kworker/7:3] mz_freq_qos: qos_add_request 13 ra 121/kworker/7:3 (input_boost_init+0x12c/0x1b0 [sched_walt]) (input_boost_init [sched_walt]) (walt_input_boost) req 0xffffff8b780f30c8
+[    0.359367][7:121:kworker/7:3] mz_freq_qos: qos_add_request __enter input_boost_init+0x12c/0x1b0 [sched_walt]
+[    0.359407][7:121:kworker/7:3] mz_freq_qos: qos_add_request 14 ra 121/kworker/7:3 (input_boost_init+0x12c/0x1b0 [sched_walt]) (input_boost_init [sched_walt]) (walt_input_boost) req 0xffffff8b781100c8
+[    0.359435][7:121:kworker/7:3] mz_freq_qos: qos_add_request __enter input_boost_init+0x12c/0x1b0 [sched_walt]
+[    0.359474][7:121:kworker/7:3] mz_freq_qos: qos_add_request 15 ra 121/kworker/7:3 (input_boost_init+0x12c/0x1b0 [sched_walt]) (input_boost_init [sched_walt]) (walt_input_boost) req 0xffffff8b7812d0c8
+[    0.359501][7:121:kworker/7:3] mz_freq_qos: qos_add_request __enter input_boost_init+0x12c/0x1b0 [sched_walt]
+[    0.359541][7:121:kworker/7:3] mz_freq_qos: qos_add_request 16 ra 121/kworker/7:3 (input_boost_init+0x12c/0x1b0 [sched_walt]) (input_boost_init [sched_walt]) (walt_input_boost) req 0xffffff8b7814a0c8
+[    0.359569][7:121:kworker/7:3] mz_freq_qos: qos_add_request __enter input_boost_init+0x12c/0x1b0 [sched_walt]
+[    0.359608][7:121:kworker/7:3] mz_freq_qos: qos_add_request 17 ra 121/kworker/7:3 (input_boost_init+0x12c/0x1b0 [sched_walt]) (input_boost_init [sched_walt]) (walt_input_boost) req 0xffffff8b781670c8
+[    0.360086][7:121:kworker/7:3] core_ctl: Creating CPU group 0
+[    0.360089][7:121:kworker/7:3] core_ctl: Init CPU0 state
+[    0.360091][7:121:kworker/7:3] core_ctl: Init CPU1 state
+[    0.360093][7:121:kworker/7:3] core_ctl: Init CPU2 state
+[    0.360101][7:121:kworker/7:3] core_ctl: Creating CPU group 3
+[    0.360103][7:121:kworker/7:3] core_ctl: Init CPU3 state
+[    0.360105][7:121:kworker/7:3] core_ctl: Init CPU4 state
+[    0.360107][7:121:kworker/7:3] core_ctl: Init CPU5 state
+[    0.360109][7:121:kworker/7:3] core_ctl: Init CPU6 state
+[    0.360117][7:121:kworker/7:3] core_ctl: Creating CPU group 7
+[    0.360118][7:121:kworker/7:3] core_ctl: Init CPU7 state
+[    0.396832][7:1:init] msm-dcc 100ff000.dcc_v2: DCC list passed 4
+[    0.397232][7:1:init] msm-dcc 100ff000.dcc_v2: All values written to enable.
+[    0.397472][7:1:init] msm-dcc 100ff000.dcc_v2: DCC list passed 6
+[    0.398669][7:1:init] msm-dcc 100ff000.dcc_v2: All values written to enable.
+[    0.399518][7:1:init]   399.507760: probe: probe=(platform_probe.cfi_jt) drv=msm-dcc dev=(null)    26.492864ms
+[    0.399620][7:1:init]   399.615729: initcall: (init_module.cfi_jt [dcc_v2])    26.623229ms
+[    0.399626][7:1:init] BOOTPROF:       399.626094:initcall: init_module.cfi_jt [dcc_v2]    26.630937ms
+[    0.403663][7:1:init] disp_cc_pll0 PLL is already enabled
+[    0.403816][7:1:init] disp_cc-kalama af00000.clock-controller: Registered DISP CC clocks
+[    0.404896][7:1:init] tcsr_cc-kalama 1fc0000.clock-controller: Registered TCSR CC clocks
+[    0.406551][7:1:init] video_cc-kalama aaf0000.clock-controller: Registered VIDEO CC clocks
+[    0.411273][7:1:init] gh_msgq: Registered client for label: 0
+[    0.425305][7:1:init] qcom_system_heap_create: DMA-BUF Heap: Created 'qcom,system'
+[    0.425350][7:1:init] qcom_system_heap_create: DMA-BUF Heap: Created 'system'
+[    0.425372][7:1:init] qcom_secure_system_heap_create: DMA-BUF Heap: Created 'qcom,secure-pixel'
+[    0.425387][7:1:init] qcom_secure_system_heap_create: DMA-BUF Heap: Created 'qcom,secure-non-pixel'
+[    0.425619][7:1:init] platform soc:qcom,dma-heaps:qcom,qseecom: assigned reserved memory node qseecom_region
+[    0.425719][7:1:init] platform soc:qcom,dma-heaps:qcom,qseecom_ta: assigned reserved memory node qseecom_ta_region
+[    0.425761][7:1:init] platform soc:qcom,dma-heaps:qcom,display: assigned reserved memory node non_secure_display_region
+[    0.425791][7:1:init] platform soc:qcom,dma-heaps:qcom,demura: assigned reserved memory node demura_heap_region
+[    0.425816][7:1:init] platform soc:qcom,dma-heaps:qcom,secure_cdsp: assigned reserved memory node secure_cdsp_region
+[    0.425838][7:1:init] platform soc:qcom,dma-heaps:qcom,user_contig: assigned reserved memory node user_contig_region
+[    0.425868][7:1:init] platform soc:qcom,dma-heaps:qcom,sp_hlos: assigned reserved memory node sp_region
+[    0.425938][7:1:init] platform soc:qcom,dma-heaps:qcom,audio_ml: assigned reserved memory node audio_cma_region
+[    0.425965][7:1:init] platform soc:qcom,dma-heaps:qcom,adsp: assigned reserved memory node sdsp_region
+[    0.425984][7:1:init] qcom_dma_heap_probe: DMA-BUF Heap: Created qcom,qseecom
+[    0.425994][7:1:init] qcom_dma_heap_probe: DMA-BUF Heap: Created qcom,qseecom-ta
+[    0.426006][7:1:init] qcom_dma_heap_probe: DMA-BUF Heap: Created qcom,display
+[    0.426017][7:1:init] qcom_dma_heap_probe: DMA-BUF Heap: Created qcom,demura
+[    0.426029][7:1:init] qcom_dma_heap_probe: DMA-BUF Heap: Created qcom,cma-secure-cdsp
+[    0.426040][7:1:init] qcom_dma_heap_probe: DMA-BUF Heap: Created qcom,user-contig
+[    0.426049][7:1:init] qcom_dma_heap_probe: DMA-BUF Heap: Created qcom,sp-hlos
+[    0.427083][7:1:init] qcom_dma_heap_probe: DMA-BUF Heap: Created qcom,secure-sp-modem
+[    0.430470][3:142:bp_camera] boostpool: dynamic_boost_pool_kworkthread
+[    0.430476][7:1:init] boostpool: dynamic_boost_pool_kworkthread, alloc order 9 nr_pages=0
+[    0.432792][7:1:init] qcom_dma_heap_probe: DMA-BUF Heap: Created qcom,secure-sp-tz
+[    0.432836][7:1:init] qcom_dma_heap_probe: DMA-BUF Heap: Created qcom,audio-ml
+[    0.432861][7:1:init] qcom_dma_heap_probe: DMA-BUF Heap: Created qcom,adsp
+[    0.436376][7:1:init] gh_msgq: Registered client for label: 1
+[    0.440481][7:1:init] msm_mem_dump soc:mem_dump: assigned reserved memory node mem_dump_region
+[    0.457411][7:1:init] MSM Memory Dump apps data table set up
+[    0.457923][7:1:init]   457.906458: probe: probe=(platform_probe.cfi_jt) drv=msm_mem_dump dev=(null)    17.439948ms
+[    0.458511][7:1:init]   458.485938: initcall: (init_module.cfi_jt [memory_dump_v2])    18.213959ms
+[    0.458532][7:1:init] BOOTPROF:       458.531042:initcall: init_module.cfi_jt [memory_dump_v2]    18.253698ms
+[    0.465300][3:142:bp_camera] boostpool: dynamic_boost_pool_kworkthread, alloc order 4 nr_pages=147456
+[    0.465314][7:1:init] boostpool: dynamic_boost_pool_kworkthread, alloc order 0 nr_pages=147456
+[    0.469571][7:1:init] qnoc-kalama soc:interconnect@0: Registered ICC provider
+[    0.469837][7:1:init] qnoc-kalama soc:interconnect@1: Registered ICC provider
+[    0.469915][7:1:init] qnoc-kalama 1600000.interconnect: Registered ICC provider
+[    0.469938][7:1:init] qnoc-kalama 1500000.interconnect: Registered ICC provider
+[    0.470059][7:1:init] qnoc-kalama 1680000.interconnect: Registered ICC provider
+[    0.470372][7:1:init] qnoc-kalama 16c0000.interconnect: Registered ICC provider
+[    0.470471][7:1:init] qnoc-kalama 16e0000.interconnect: Registered ICC provider
+[    0.470655][7:1:init] qnoc-kalama 1700000.interconnect: Registered ICC provider
+[    0.470835][7:1:init] qnoc-kalama 1780000.interconnect: Registered ICC provider
+[    0.471093][7:1:init] qnoc-kalama 24100000.interconnect: Registered ICC provider
+[    0.471116][7:1:init] qnoc-kalama 320c0000.interconnect: Registered ICC provider
+[    0.471117][4:10:kworker/u16:1] cam_cc_titan_top_gdsc: supplied by pm_v8_s5_mmcx_voter_level
+[    0.471135][7:1:init] qnoc-kalama 7e40000.interconnect: Registered ICC provider
+[    0.471291][7:1:init] qnoc-kalama 7400000.interconnect: Registered ICC provider
+[    0.471309][7:1:init] qnoc-kalama 7430000.interconnect: Registered ICC provider
+[    0.474791][5:10:kworker/u16:1] qcom-bwmon: Zone thres larger than hw limit: hi:267 med:400 lo:0
+[    0.477262][7:1:init] [mz_bootinfo] get_property_string: read property bl_version error.
+[    0.477272][7:1:init] star_unit_info (SMEM) for modem: magic = 0x77665544,project_id = 0x3, hw_id = 0x5
+[    0.478023][7:1:init] qcom_dload_probe: Current dump mode: 0x20
+[    0.480560][7:1:init] qcom_dma_iommu soc:dma_dev: assigned reserved memory node linux,cma
+[    0.481149][7:1:init] DMA preallocated 2048 KiB GFP_KERNEL pool for atomic allocations
+[    0.482908][7:1:init] qcom-llcc-pmu 24095000.llcc-pmu: Registered llcc_pmu, type: 9
+[    0.489986][5:8:kworker/u16:0] spmi spmi-0: PMIC arbiter version v7 (0x70000001)
+[    0.495577][5:8:kworker/u16:0] spmi spmi-0: pmic_arb_wait_for_done: 0xc 0x104: transaction failed (0x3)
+[    0.496076][6:10:kworker/u16:1] spmi spmi-1: PMIC arbiter version v7 (0x70000001)
+[    0.498181][7:1:init] NET: Registered PF_QIPCRTR protocol family
+[    0.499370][7:1:init] rtc-pm8xxx c42d000.qcom,spmi:qcom,pmk8550@0:rtc@6100: registered as rtc0
+[    0.499403][7:1:init] rtc-pm8xxx c42d000.qcom,spmi:qcom,pmk8550@0:rtc@6100: setting system clock to 1970-01-14T08:34:22 UTC (1154062)
+[    0.502698][7:152:irq/278-qcom,qm] [152]: __qmp_rx_worker: RX int without negotiation ack
+[    0.503664][5:8:kworker/u16:0] tmecom-qmp-client soc:qcom,tmecom-qmp-client: tmecom probe success
+[    0.506514][7:1:init] qsmmuv500-tbu 16f0000.anoc_1_qtb: Unable to get the transactiontracker-base
+[    0.506618][7:1:init] qsmmuv500-tbu 171a000.anoc_2_qtb: Unable to get the transactiontracker-base
+[    0.506720][7:1:init] qsmmuv500-tbu 17d2000.cam_hf_qtb: Unable to get the transactiontracker-base
+[    0.506821][7:1:init] qsmmuv500-tbu 523000.nsp_qtb: Unable to get the transactiontracker-base
+[    0.506927][7:1:init] qsmmuv500-tbu 503000.lpass_qtb: Unable to get the transactiontracker-base
+[    0.507024][7:1:init] qsmmuv500-tbu 16cd000.pcie_qtb: Unable to get the transactiontracker-base
+[    0.507112][7:1:init] qsmmuv500-tbu 17d1000.sf_qtb: Unable to get the transactiontracker-base
+[    0.507204][7:1:init] qsmmuv500-tbu 17d0000.mdp_hf_qtb: Unable to get the transactiontracker-base
+[    0.507348][7:1:init] arm-smmu 15000000.apps-smmu: probing hardware configuration...
+[    0.507350][7:1:init] arm-smmu 15000000.apps-smmu: SMMUv2 with:
+[    0.507368][7:1:init] arm-smmu 15000000.apps-smmu: 	stage 1 translation
+[    0.507370][7:1:init] arm-smmu 15000000.apps-smmu: 	coherent table walk
+[    0.507372][7:1:init] arm-smmu 15000000.apps-smmu: 	stream matching with 105 register groups
+[    0.507380][7:1:init] arm-smmu 15000000.apps-smmu: 	70 context banks (0 stage-2 only)
+[    0.507401][7:1:init] arm-smmu 15000000.apps-smmu: 	Supported page sizes: 0x61311000
+[    0.507403][7:1:init] arm-smmu 15000000.apps-smmu: 	Stage-1: 36-bit VA -> 36-bit IPA
+[    0.509508][6:8:kworker/u16:0] ufshcd-qcom 1d84000.ufshc: Adding to iommu group 0
+[    0.511739][6:8:kworker/u16:0] ufshcd-qcom 1d84000.ufshc: ufshcd_populate_vreg: unable to find vdd-hba-max-microamp
+[    0.511754][6:8:kworker/u16:0] ufshcd-qcom 1d84000.ufshc: ufshcd_populate_vreg: Unable to find vccq2-supply regulator, assuming enabled
+[    0.512711][6:8:kworker/u16:0] ufshcd-qcom 1d84000.ufshc: Found QC Inline Crypto Engine (ICE) v4.0.1
+[    0.513177][4:8:kworker/u16:0] mz_freq_qos: qos_add_request __enter ufs_qcom_init+0x128c/0x2050 [ufs_qcom]
+[    0.513212][4:8:kworker/u16:0] mz_freq_qos: qos_add_request 18 ra 8/kworker/u16:0 (ufs_qcom_init+0x128c/0x2050 [ufs_qcom]) (ufs_qcom_init [ufs_qcom]) (ufs_qcom) req 0xffffff8b7809c580
+[    0.514496][6:8:kworker/u16:0] scsi host0: ufshcd
+[    0.522042][3:8:kworker/u16:0] arm-scmi soc:qcom,scmi: SCMI Notifications - Core Enabled.
+[    0.522316][7:8:kworker/u16:0] arm-scmi soc:qcom,scmi: SCMI Protocol v2.0 'Qualcomm:' Firmware version 0x10000
+[    0.522350][7:8:kworker/u16:0] arm-scmi soc:qcom,scmi: SCMI protocol 129 not implemented
+[    0.522477][7:8:kworker/u16:0] geni_se_qup ac0000.qcom,qupv3_1_geni_se: Adding to iommu group 1
+[    0.523067][7:8:kworker/u16:0] qcom_geni_serial a9c000.qcom,qup_uart: use gpio from fdt, rx-gpio num=328.
+[    0.523206][7:8:kworker/u16:0] qcom_geni_serial a9c000.qcom,qup_uart: prepare serial hotplug_work
+[    0.523217][7:8:kworker/u16:0] a9c000.qcom,qup_uart: ttyMSM0 at MMIO 0xa9c000 (irq = 279, base_baud = 0) is a MSM
+[    0.529067][7:8:kworker/u16:0] printk: console [ttyMSM0] enabled
+[    0.529593][7:8:kworker/u16:0] geni_se_qup 8c0000.qcom,qupv3_2_geni_se: Adding to iommu group 2
+[    0.531652][7:8:kworker/u16:0] arm-scmi soc:qcom,scmi: version 1.0
+[    0.632516][7:10:kworker/u16:1] scsi 0:0:0:49488: Well-known LUN    PHISON   eUFS3.1_512      02.2 PQ: 0 ANSI: 6
+[    0.634669][7:10:kworker/u16:1] scsi 0:0:0:49476: Well-known LUN    PHISON   eUFS3.1_512      02.2 PQ: 0 ANSI: 6
+[    0.635858][7:10:kworker/u16:1] scsi 0:0:0:49456: Well-known LUN    PHISON   eUFS3.1_512      02.2 PQ: 0 ANSI: 6
+[    0.637063][7:10:kworker/u16:1] mz_freq_qos: qos_add_request __enter __dev_pm_qos_add_request+0xec/0x204
+[    0.637072][7:10:kworker/u16:1] mz_freq_qos: qos_add_request 19 ra 10/kworker/u16:1 (__dev_pm_qos_add_request+0xec/0x204) (__dev_pm_qos_add_request) (raw- __dev_pm_qos_add_request) req 0xffffff880b8a84c0
+[    0.637075][7:10:kworker/u16:1] mz_freq_qos: qos_add_request __enter __dev_pm_qos_add_request+0xec/0x204
+[    0.637079][7:10:kworker/u16:1] mz_freq_qos: qos_add_request 20 ra 10/kworker/u16:1 (__dev_pm_qos_add_request+0xec/0x204) (__dev_pm_qos_add_request) (raw- __dev_pm_qos_add_request) req 0xffffff880b8a8518
+[    0.638092][7:10:kworker/u16:1] scsi 0:0:0:0: Direct-Access     PHISON   eUFS3.1_512      02.2 PQ: 0 ANSI: 6
+[    0.640308][7:10:kworker/u16:1] scsi 0:0:0:1: Direct-Access     PHISON   eUFS3.1_512      02.2 PQ: 0 ANSI: 6
+[    0.640555][7:148:kworker/u16:3] sd 0:0:0:0: [sda] 124010496 4096-byte logical blocks: (508 GB/473 GiB)
+[    0.641039][7:148:kworker/u16:3] sd 0:0:0:0: [sda] Write Protect is off
+[    0.642099][6:148:kworker/u16:3] sd 0:0:0:0: [sda] Disabling FUA
+[    0.642106][6:148:kworker/u16:3] sd 0:0:0:0: [sda] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    0.642145][6:148:kworker/u16:3] sd 0:0:0:0: [sda] Optimal transfer size 524288 bytes
+[    0.642225][4:10:kworker/u16:1] scsi 0:0:0:2: Direct-Access     PHISON   eUFS3.1_512      02.2 PQ: 0 ANSI: 6
+[    0.643312][7:8:kworker/u16:0] sd 0:0:0:1: [sdb] 5120 4096-byte logical blocks: (21.0 MB/20.0 MiB)
+[    0.643382][7:8:kworker/u16:0] sd 0:0:0:1: [sdb] Write Protect is off
+[    0.644423][7:8:kworker/u16:0] sd 0:0:0:1: [sdb] Disabling FUA
+[    0.644426][7:8:kworker/u16:0] sd 0:0:0:1: [sdb] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    0.644437][6:10:kworker/u16:1] scsi 0:0:0:3: Direct-Access     PHISON   eUFS3.1_512      02.2 PQ: 0 ANSI: 6
+[    0.644502][7:8:kworker/u16:0] sd 0:0:0:1: [sdb] Optimal transfer size 524288 bytes
+[    0.646363][6:182:kworker/u16:4] sd 0:0:0:2: [sdc] 5120 4096-byte logical blocks: (21.0 MB/20.0 MiB)
+[    0.646887][7:182:kworker/u16:4] sd 0:0:0:2: [sdc] Write Protect is off
+[    0.646890][7:182:kworker/u16:4] scsi 0:0:0:4: Direct-Access     PHISON   eUFS3.1_512      02.2 PQ: 0 ANSI: 6
+[    0.647484][7:182:kworker/u16:4] sd 0:0:0:2: [sdc] Disabling FUA
+[    0.647487][7:182:kworker/u16:4] sd 0:0:0:2: [sdc] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    0.647981][5:182:kworker/u16:4] sd 0:0:0:2: [sdc] Optimal transfer size 524288 bytes
+[    0.649141][7:10:kworker/u16:1] scsi 0:0:0:5: Direct-Access     PHISON   eUFS3.1_512      02.2 PQ: 0 ANSI: 6
+[    0.649163][7:148:kworker/u16:3]  sda: sda1 sda2 sda3 sda4 sda5 sda6 sda7 sda8 sda9 sda10 sda11 sda12 sda13 sda14 sda15 sda16 sda17 sda18 sda19 sda20 sda21 sda22 sda23
+[    0.649361][7:183:kworker/u16:5] sd 0:0:0:3: [sdd] 8192 4096-byte logical blocks: (33.6 MB/32.0 MiB)
+[    0.649441][7:183:kworker/u16:5] sd 0:0:0:3: [sdd] Write Protect is off
+[    0.649959][3:8:kworker/u16:0]  sdb: sdb1 sdb2 sdb3 sdb4 sdb5
+[    0.650079][7:183:kworker/u16:5] sd 0:0:0:3: [sdd] Disabling FUA
+[    0.650087][7:183:kworker/u16:5] sd 0:0:0:3: [sdd] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    0.650616][7:183:kworker/u16:5] sd 0:0:0:3: [sdd] Optimal transfer size 524288 bytes
+[    0.651878][7:184:kworker/u16:6] sd 0:0:0:4: [sde] 1048576 4096-byte logical blocks: (4.29 GB/4.00 GiB)
+[    0.651957][4:184:kworker/u16:6] sd 0:0:0:4: [sde] Write Protect is off
+[    0.651995][4:185:kworker/u16:7] sd 0:0:0:5: [sdf] 8192 4096-byte logical blocks: (33.6 MB/32.0 MiB)
+[    0.652090][7:185:kworker/u16:7] sd 0:0:0:5: [sdf] Write Protect is off
+[    0.652149][7:148:kworker/u16:3] sd 0:0:0:0: [sda] Attached SCSI disk
+[    0.652149][7:148:kworker/u16:3] sd 0:0:0:4: [sde] Disabling FUA
+[    0.652152][6:184:kworker/u16:6] sd 0:0:0:4: [sde] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    0.652216][4:185:kworker/u16:7] sd 0:0:0:5: [sdf] Disabling FUA
+[    0.652219][7:184:kworker/u16:6] sd 0:0:0:4: [sde] Optimal transfer size 524288 bytes
+[    0.652220][4:185:kworker/u16:7] sd 0:0:0:5: [sdf] Write cache: enabled, read cache: enabled, doesn't support DPO or FUA
+[    0.652729][7:8:kworker/u16:0] sd 0:0:0:1: [sdb] Attached SCSI disk
+[    0.652729][4:182:kworker/u16:4]  sdc: sdc1 sdc2 sdc3 sdc4 sdc5
+[    0.652739][3:185:kworker/u16:7] sd 0:0:0:5: [sdf] Optimal transfer size 524288 bytes
+[    0.655455][7:182:kworker/u16:4] sd 0:0:0:2: [sdc] Attached SCSI disk
+[    0.656505][7:183:kworker/u16:5]  sdd: sdd1 sdd2 sdd3
+[    0.658096][7:185:kworker/u16:7]  sdf: sdf1 sdf2 sdf3 sdf4 sdf5
+[    0.659489][7:184:kworker/u16:6]  sde: sde1 sde2 sde3 sde4 sde5 sde6 sde7 sde8 sde9 sde10 sde11 sde12 sde13 sde14 sde15 sde16 sde17 sde18 sde19 sde20 sde21 sde22 sde23 sde24 sde25 sde26 sde27 sde28 sde29 sde30 sde31 sde32 sde33 sde34 sde35 sde36 sde37 sde38 sde39 sde40 sde41 sde42 sde43 sde44 sde45 sde46 sde47 sde48 sde49 sde50 sde51 sde52 sde53 sde54 sde55 sde56 sde57 sde58 sde59 sde60 sde61 sde62 sde63 sde64 sde65 sde66 sde67 sde68 sde69 sde70 sde71 sde72 sde73 sde74 sde75 sde76 sde77 sde78
+[    0.659977][4:183:kworker/u16:5] sd 0:0:0:3: [sdd] Attached SCSI disk
+[    0.661234][7:185:kworker/u16:7] sd 0:0:0:5: [sdf] Attached SCSI disk
+[    0.662080][7:184:kworker/u16:6] sd 0:0:0:4: [sde] Attached SCSI disk
+[    0.665540][7:1:init] BATTERY_CHG [mz_chg_notify_subsystem.c   107] mz_chg_notify_subsystem_probe: probe done
+[    0.666359][7:1:init] BATTERY_CHG [mz_mbattery_logger.c   343] mz_mbattery_logger_probe: probe done
+[    0.667120][7:1:init] BATTERY_CHG [mz_chg_interface.c   767] mz_chg_interface_probe: probe done
+[    0.668246][7:1:init] BATTERY_CHG [mz_chg_thermal.c   187] mz_chg_thermal_probe: probe done
+[    0.670243][7:1:init] BATTERY_CHG [mz_vbat_monitor.c   121] mz_vbat_monitor_probe: probe done
+[    0.671120][7:1:init] BATTERY_CHG [mz_soc_linearize.c   356] mz_soc_linearize_probe: probe done
+[    0.672018][7:1:init] mz_freq_qos: qos_add_request __enter mrg_cpufreq_register+0xf4/0x2b4 [mz_mrg]
+[    0.672031][7:1:init] mz_freq_qos: qos_add_request 21 ra 1/init (mrg_cpufreq_register+0xf4/0x2b4 [mz_mrg]) (mrg_cpufreq_register [mz_mrg]) (mrg) req 0xffffff880b7608a8
+[    0.672037][7:1:init] mz_freq_qos: qos_add_request __enter mrg_cpufreq_register+0x10c/0x2b4 [mz_mrg]
+[    0.672043][7:1:init] mz_freq_qos: qos_add_request 22 ra 1/init (mrg_cpufreq_register+0x10c/0x2b4 [mz_mrg]) (mrg_cpufreq_register [mz_mrg]) (mrg) req 0xffffff880b7608f0
+[    0.672050][7:1:init] mz_freq_qos: qos_add_request __enter mrg_cpufreq_register+0xf4/0x2b4 [mz_mrg]
+[    0.672056][7:1:init] mz_freq_qos: qos_add_request 23 ra 1/init (mrg_cpufreq_register+0xf4/0x2b4 [mz_mrg]) (mrg_cpufreq_register [mz_mrg]) (mrg) req 0xffffff880b7674a8
+[    0.672061][7:1:init] mz_freq_qos: qos_add_request __enter mrg_cpufreq_register+0x10c/0x2b4 [mz_mrg]
+[    0.672067][7:1:init] mz_freq_qos: qos_add_request 24 ra 1/init (mrg_cpufreq_register+0x10c/0x2b4 [mz_mrg]) (mrg_cpufreq_register [mz_mrg]) (mrg) req 0xffffff880b7674f0
+[    0.672074][7:1:init] mz_freq_qos: qos_add_request __enter mrg_cpufreq_register+0xf4/0x2b4 [mz_mrg]
+[    0.672079][7:1:init] mz_freq_qos: qos_add_request 25 ra 1/init (mrg_cpufreq_register+0xf4/0x2b4 [mz_mrg]) (mrg_cpufreq_register [mz_mrg]) (mrg) req 0xffffff880b5a94a8
+[    0.672085][7:1:init] mz_freq_qos: qos_add_request __enter mrg_cpufreq_register+0x10c/0x2b4 [mz_mrg]
+[    0.672090][7:1:init] mz_freq_qos: qos_add_request 26 ra 1/init (mrg_cpufreq_register+0x10c/0x2b4 [mz_mrg]) (mrg_cpufreq_register [mz_mrg]) (mrg) req 0xffffff880b5a94f0
+[    0.672095][7:1:init] mrg policy query, count = 3 max_freq = 3187200 unmask_freq = 2956800
+[    0.673227][7:1:init] shrink_async: kshrink_async succeed!
+[    0.674031][7:1:init] mz_binder:mz binder strategy init succeed
+[    0.691267][7:1:init] erofs: (device dm-2): mounted with root inode @ nid 39.
+[    0.691373][7:1:init] Kernel panic - not syncing: Attempted to kill init! exitcode=0x00007f00
+[    0.691378][7:1:init] CPU: 7 PID: 1 Comm: init Tainted: G S          E     5.15.119-android13-8-gd42f62b3d005-ab1718756321 #1
+[    0.691381][7:1:init] Hardware name: Meizu M2468(kalama MTP) meizu,board-id = <0x3 0x5> (DT)
+[    0.691383][7:1:init] Call trace:
+[    0.691385][7:1:init]  dump_backtrace.cfi_jt+0x0/0x8
+[    0.691393][7:1:init]  dump_stack_lvl+0x80/0xb8
+[    0.691399][7:1:init]  panic+0x190/0x44c
+[    0.691403][7:1:init]  do_exit+0xeb4/0x13f4
+[    0.691406][7:1:init]  do_group_exit+0x144/0x174
+[    0.691409][7:1:init]  do_group_exit+0x0/0x174
+[    0.691412][7:1:init]  invoke_syscall+0x60/0x150
+[    0.691415][7:1:init]  el0_svc_common+0xb8/0xf8
+[    0.691418][7:1:init]  do_el0_svc+0x28/0x98
+[    0.691420][7:1:init]  el0_svc+0x24/0x84
+[    0.691423][7:1:init]  el0t_64_sync_handler+0x88/0xec
+[    0.691425][7:1:init]  el0t_64_sync+0x1b8/0x1bc
+[    0.691427][7:1:init] SMP: stopping secondary CPUs
+[    0.691436][3:0:swapper/3] VendorHooks: CPU3: stopping
+[    0.691442][3:0:swapper/3] CPU: 3 PID: 0 Comm: swapper/3 Tainted: G S          E     5.15.119-android13-8-gd42f62b3d005-ab1718756321 #1
+[    0.691446][3:0:swapper/3] Hardware name: Meizu M2468(kalama MTP) meizu,board-id = <0x3 0x5> (DT)
+[    0.691449][3:0:swapper/3] pstate: 20400005 (nzCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[    0.691452][3:0:swapper/3] PC is at cpuidle_enter_state+0x3b4/0x87c
+[    0.691465][3:0:swapper/3] LR is at cpuidle_enter_state+0x790/0x87c
+[    0.691469][3:0:swapper/3] pc : [<ffffffd34801f770>] lr : [<ffffffd34801fb4c>] pstate: 20400005
+[    0.691472][3:0:swapper/3] sp : ffffffc008133d40
+[    0.691474][3:0:swapper/3] x29: ffffffc008133d80 x28: 000000000682aaab x27: 0000000000418b60
+[    0.691480][3:0:swapper/3] x26: 0000000004712c2d x25: 0000000000000015 x24: 00ffffffffffffff
+[    0.691484][3:0:swapper/3] x23: 0000000000000003 x22: 00000000053a7b8b x21: ffffff8004caa728
+[    0.691487][3:0:swapper/3] x20: ffffff8b780f0240 x19: ffffff80021bda00 x18: ffffffc008105020
+[    0.691491][3:0:swapper/3] x17: 00000000000003e7 x16: 0000000000000000 x15: 0000000000000000
+[    0.691494][3:0:swapper/3] x14: ffffff8b780e4998 x13: 0000000000007ff3 x12: 00000000000005c5
+[    0.691498][3:0:swapper/3] x11: 000000000001cea8 x10: ffffffd349a7c4c0 x9 : ffffffd349a49500
+[    0.691501][3:0:swapper/3] x8 : 00000000000000e0 x7 : 00000000286fcedd x6 : 00000000286fcedd
+[    0.691505][3:0:swapper/3] x5 : 0000000000000001 x4 : 0000000029177e52 x3 : 0000000000005bc1
+[    0.691508][3:0:swapper/3] x2 : ffffff8b780f0240 x1 : 0000000000000000 x0 : 0000000000000000
+[    0.691512][3:0:swapper/3] Call trace:
+[    0.691514][3:0:swapper/3]  cpuidle_enter_state+0x3b4/0x87c
+[    0.691519][3:0:swapper/3]  do_idle+0x300/0x598
+[    0.691530][3:0:swapper/3]  cpu_startup_entry+0x84/0x90
+[    0.691533][3:0:swapper/3]  secondary_start_kernel+0x294/0x314
+[    0.691537][3:0:swapper/3]  __secondary_switched+0x9c/0xa0
+[    0.691543][4:0:swapper/4] VendorHooks: CPU4: stopping
+[    0.691547][4:0:swapper/4] CPU: 4 PID: 0 Comm: swapper/4 Tainted: G S          E     5.15.119-android13-8-gd42f62b3d005-ab1718756321 #1
+[    0.691551][4:0:swapper/4] Hardware name: Meizu M2468(kalama MTP) meizu,board-id = <0x3 0x5> (DT)
+[    0.691553][4:0:swapper/4] pstate: 20400005 (nzCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[    0.691557][4:0:swapper/4] PC is at cpuidle_enter_state+0x3b4/0x87c
+[    0.691565][4:0:swapper/4] LR is at cpuidle_enter_state+0x790/0x87c
+[    0.691569][4:0:swapper/4] pc : [<ffffffd34801f770>] lr : [<ffffffd34801fb4c>] pstate: 20400005
+[    0.691572][4:0:swapper/4] sp : ffffffc00813bd40
+[    0.691574][4:0:swapper/4] x29: ffffffc00813bd80 x28: 000000000682aaab x27: 0000000000418b60
+[    0.691579][4:0:swapper/4] x26: 0000000004712c2d x25: 0000000000000015 x24: 00ffffffffffffff
+[    0.691583][4:0:swapper/4] x23: 0000000000000004 x22: 00000000053a7b9b x21: ffffff8004caa728
+[    0.691586][4:0:swapper/4] x20: ffffff8b7810d240 x19: ffffff80021ba400 x18: ffffffc00810d020
+[    0.691590][4:0:swapper/4] x17: ffffff8b781013e8 x16: 00000000280de800 x15: ffffff8b78101998
+[    0.691593][4:0:swapper/4] x14: 0000000000000001 x13: 0000000000007ff3 x12: 00000000000005c5
+[    0.691597][4:0:swapper/4] x11: 0000000000011a00 x10: ffffffd349a7c4c0 x9 : ffffffd349a49500
+[    0.691600][4:0:swapper/4] x8 : 00000000000000e0 x7 : 00000000286fcedd x6 : 00000000286fcedd
+[    0.691603][4:0:swapper/4] x5 : 0000000000000001 x4 : 000000002927979e x3 : 0000000000006979
+[    0.691607][4:0:swapper/4] x2 : ffffff8b7810d240 x1 : 0000000000000000 x0 : 0000000000000000
+[    0.691611][4:0:swapper/4] Call trace:
+[    0.691613][4:0:swapper/4]  cpuidle_enter_state+0x3b4/0x87c
+[    0.691617][4:0:swapper/4]  do_idle+0x300/0x598
+[    0.691624][4:0:swapper/4]  cpu_startup_entry+0x84/0x90
+[    0.691628][4:0:swapper/4]  secondary_start_kernel+0x294/0x314
+[    0.691632][4:0:swapper/4]  __secondary_switched+0x9c/0xa0
+[    0.691636][5:0:swapper/5] VendorHooks: CPU5: stopping
+[    0.691643][5:0:swapper/5] CPU: 5 PID: 0 Comm: swapper/5 Tainted: G S          E     5.15.119-android13-8-gd42f62b3d005-ab1718756321 #1
+[    0.691646][5:0:swapper/5] Hardware name: Meizu M2468(kalama MTP) meizu,board-id = <0x3 0x5> (DT)
+[    0.691649][5:0:swapper/5] pstate: 20400005 (nzCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[    0.691653][5:0:swapper/5] PC is at cpuidle_enter_state+0x3b4/0x87c
+[    0.691659][5:0:swapper/5] LR is at cpuidle_enter_state+0x790/0x87c
+[    0.691663][5:0:swapper/5] pc : [<ffffffd34801f770>] lr : [<ffffffd34801fb4c>] pstate: 20400005
+[    0.691666][5:0:swapper/5] sp : ffffffc008143d40
+[    0.691668][5:0:swapper/5] x29: ffffffc008143d80 x28: 000000000682aaab x27: 0000000000418b60
+[    0.691673][5:0:swapper/5] x26: 0000000004712c2d x25: 0000000000000015 x24: 00ffffffffffffff
+[    0.691677][5:0:swapper/5] x23: 0000000000000005 x22: 00000000053a7ba6 x21: ffffff8004caa728
+[    0.691680][5:0:swapper/5] x20: ffffff8b7812a240 x19: ffffff80021bec00 x18: ffffffc008115020
+[    0.691684][5:0:swapper/5] x17: 00000000000003e7 x16: 0000000000000000 x15: 0000000000000000
+[    0.691687][5:0:swapper/5] x14: ffffff8b7811e998 x13: 0000000000007ff3 x12: 00000000000005c5
+[    0.691691][5:0:swapper/5] x11: 0000000000018108 x10: ffffffd349a7c4c0 x9 : ffffffd349a49500
+[    0.691695][5:0:swapper/5] x8 : 00000000000000e0 x7 : 00000000286fcedd x6 : 00000000286fcedd
+[    0.691699][5:0:swapper/5] x5 : 0000000000000001 x4 : 00000000292cbd29 x3 : 0000000000002f15
+[    0.691702][5:0:swapper/5] x2 : ffffff8b7812a240 x1 : 0000000000000000 x0 : 0000000000000000
+[    0.691706][5:0:swapper/5] Call trace:
+[    0.691709][5:0:swapper/5]  cpuidle_enter_state+0x3b4/0x87c
+[    0.691713][5:0:swapper/5]  do_idle+0x300/0x598
+[    0.691717][5:0:swapper/5]  cpu_startup_entry+0x84/0x90
+[    0.691721][5:0:swapper/5]  secondary_start_kernel+0x294/0x314
+[    0.691724][5:0:swapper/5]  __secondary_switched+0x9c/0xa0
+[    0.691728][6:0:swapper/6] VendorHooks: CPU6: stopping
+[    0.691734][6:0:swapper/6] CPU: 6 PID: 0 Comm: swapper/6 Tainted: G S          E     5.15.119-android13-8-gd42f62b3d005-ab1718756321 #1
+[    0.691737][6:0:swapper/6] Hardware name: Meizu M2468(kalama MTP) meizu,board-id = <0x3 0x5> (DT)
+[    0.691740][6:0:swapper/6] pstate: 20400005 (nzCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[    0.691743][6:0:swapper/6] PC is at cpuidle_enter_state+0x3b4/0x87c
+[    0.691749][6:0:swapper/6] LR is at cpuidle_enter_state+0x790/0x87c
+[    0.691753][6:0:swapper/6] pc : [<ffffffd34801f770>] lr : [<ffffffd34801fb4c>] pstate: 20400005
+[    0.691756][6:0:swapper/6] sp : ffffffc00814bd40
+[    0.691758][6:0:swapper/6] x29: ffffffc00814bd80 x28: 000000000682aaab x27: 0000000000418b60
+[    0.691763][6:0:swapper/6] x26: 0000000004712c2d x25: 0000000000000015 x24: 00ffffffffffffff
+[    0.691767][6:0:swapper/6] x23: 0000000000000006 x22: 00000000053a7bb5 x21: ffffff8004caa728
+[    0.691771][6:0:swapper/6] x20: ffffff8b78147240 x19: ffffff80021bc800 x18: ffffffc00811d020
+[    0.691775][6:0:swapper/6] x17: ffffff8b7813b3e8 x16: 00000000446d1700 x15: ffffff8b7813b998
+[    0.691779][6:0:swapper/6] x14: 0000000000000001 x13: 0000000000007ff3 x12: 00000000000005c5
+[    0.691782][6:0:swapper/6] x11: 0000000000024fd8 x10: ffffffd349a7c4c0 x9 : ffffffd349a49500
+[    0.691786][6:0:swapper/6] x8 : 00000000000000e0 x7 : 00000000286fcedd x6 : 00000000286fcedd
+[    0.691790][6:0:swapper/6] x5 : 0000000000000001 x4 : 000000002917b7e5 x3 : 000000000000c1df
+[    0.691793][6:0:swapper/6] x2 : ffffff8b78147240 x1 : 0000000000000000 x0 : 0000000000000000
+[    0.691797][6:0:swapper/6] Call trace:
+[    0.691799][6:0:swapper/6]  cpuidle_enter_state+0x3b4/0x87c
+[    0.691803][6:0:swapper/6]  do_idle+0x300/0x598
+[    0.691808][6:0:swapper/6]  cpu_startup_entry+0x84/0x90
+[    0.691812][6:0:swapper/6]  secondary_start_kernel+0x294/0x314
+[    0.691815][6:0:swapper/6]  __secondary_switched+0x9c/0xa0
+[    0.691820][1:0:swapper/1] VendorHooks: CPU1: stopping
+[    0.691840][1:0:swapper/1] CPU: 1 PID: 0 Comm: swapper/1 Tainted: G S          E     5.15.119-android13-8-gd42f62b3d005-ab1718756321 #1
+[    0.691852][1:0:swapper/1] Hardware name: Meizu M2468(kalama MTP) meizu,board-id = <0x3 0x5> (DT)
+[    0.691860][1:0:swapper/1] pstate: 20400005 (nzCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[    0.691871][1:0:swapper/1] PC is at cpuidle_enter_state+0x3b4/0x87c
+[    0.691886][1:0:swapper/1] LR is at cpuidle_enter_state+0x790/0x87c
+[    0.691897][1:0:swapper/1] pc : [<ffffffd34801f770>] lr : [<ffffffd34801fb4c>] pstate: 20400005
+[    0.691906][1:0:swapper/1] sp : ffffffc008123d40
+[    0.691913][1:0:swapper/1] x29: ffffffc008123d80 x28: 000000000682aaab x27: 0000000000418b60
+[    0.691929][1:0:swapper/1] x26: 0000000004712c2d x25: 0000000000000015 x24: 00ffffffffffffff
+[    0.691943][1:0:swapper/1] x23: 0000000000000001 x22: 00000000053a936a x21: ffffff8004caa728
+[    0.691956][1:0:swapper/1] x20: ffffff8b780b6240 x19: ffffff80021b9200 x18: ffffffc0080f5020
+[    0.691970][1:0:swapper/1] x17: 0000f4040044ffff x16: 045000f2b5593519 x15: ffffffd349a7c4d8
+[    0.691983][1:0:swapper/1] x14: ffffffd349a80710 x13: 0000000000007ff3 x12: 00000000000005cd
+[    0.691996][1:0:swapper/1] x11: 000000000000ffff x10: ffffffd349a7c4c0 x9 : 0000000000000002
+[    0.692010][1:0:swapper/1] x8 : 00000000000000e0 x7 : 045000f2b5593519 x6 : 0000000000300000
+[    0.692023][1:0:swapper/1] x5 : ffffffc008123b70 x4 : 0000000000000700 x3 : 00000000000024fb
+[    0.692036][1:0:swapper/1] x2 : ffffff8b780b6240 x1 : 0000000000000001 x0 : 0000000000000000
+[    0.692050][1:0:swapper/1] Call trace:
+[    0.692057][1:0:swapper/1]  cpuidle_enter_state+0x3b4/0x87c
+[    0.692069][1:0:swapper/1]  do_idle+0x300/0x598
+[    0.692080][1:0:swapper/1]  cpu_startup_entry+0x84/0x90
+[    0.692091][1:0:swapper/1]  secondary_start_kernel+0x294/0x314
+[    0.692102][1:0:swapper/1]  __secondary_switched+0x9c/0xa0
+[    0.692113][0:0:swapper/0] VendorHooks: CPU0: stopping
+[    0.692134][0:0:swapper/0] CPU: 0 PID: 0 Comm: swapper/0 Tainted: G S          E     5.15.119-android13-8-gd42f62b3d005-ab1718756321 #1
+[    0.692146][0:0:swapper/0] Hardware name: Meizu M2468(kalama MTP) meizu,board-id = <0x3 0x5> (DT)
+[    0.692155][0:0:swapper/0] pstate: 20400005 (nzCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[    0.692165][0:0:swapper/0] PC is at cpuidle_enter_state+0x3b4/0x87c
+[    0.692181][0:0:swapper/0] LR is at cpuidle_enter_state+0x790/0x87c
+[    0.692191][0:0:swapper/0] pc : [<ffffffd34801f770>] lr : [<ffffffd34801fb4c>] pstate: 20400005
+[    0.692200][0:0:swapper/0] sp : ffffffd349a63cf0
+[    0.692207][0:0:swapper/0] x29: ffffffd349a63d30 x28: 000000000682aaab x27: 0000000000418b60
+[    0.692223][0:0:swapper/0] x26: 0000000004712c2d x25: 0000000000000015 x24: 00ffffffffffffff
+[    0.692237][0:0:swapper/0] x23: 0000000000000000 x22: 00000000053a947b x21: ffffff8004caa728
+[    0.692251][0:0:swapper/0] x20: ffffff8b78099240 x19: ffffffd349bb2000 x18: ffffffd349a7d440
+[    0.692264][0:0:swapper/0] x17: 0000f4040044ffff x16: 045000f2b5593519 x15: 000000000013d620
+[    0.692278][0:0:swapper/0] x14: ffffffd349a80710 x13: 0000000000007ff3 x12: 00000000000005cd
+[    0.692291][0:0:swapper/0] x11: 000000000000ffff x10: ffffffd349a7c4c0 x9 : 0000000000000002
+[    0.692305][0:0:swapper/0] x8 : 00000000000000e0 x7 : 045000f2b5593519 x6 : 0000000000300000
+[    0.692318][0:0:swapper/0] x5 : ffffffd349a63b20 x4 : 0000000000000700 x3 : 0000000000003d83
+[    0.692331][0:0:swapper/0] x2 : ffffff8b78099240 x1 : 0000000000000001 x0 : 0000000000000000
+[    0.692344][0:0:swapper/0] Call trace:
+[    0.692352][0:0:swapper/0]  cpuidle_enter_state+0x3b4/0x87c
+[    0.692363][0:0:swapper/0]  do_idle+0x300/0x598
+[    0.692378][0:0:swapper/0]  cpu_startup_entry+0x84/0x90
+[    0.692388][0:0:swapper/0]  kernel_init+0x0/0x37c
+[    0.692399][0:0:swapper/0]  start_kernel+0x0/0x634
+[    0.692411][0:0:swapper/0]  start_kernel+0x510/0x634
+[    0.692421][0:0:swapper/0]  __primary_switched+0xc8/0x7c6c
+[    0.692432][2:0:swapper/2] VendorHooks: CPU2: stopping
+[    0.692447][2:0:swapper/2] CPU: 2 PID: 0 Comm: swapper/2 Tainted: G S          E     5.15.119-android13-8-gd42f62b3d005-ab1718756321 #1
+[    0.692459][2:0:swapper/2] Hardware name: Meizu M2468(kalama MTP) meizu,board-id = <0x3 0x5> (DT)
+[    0.692467][2:0:swapper/2] pstate: 20400005 (nzCv daif +PAN -UAO -TCO -DIT -SSBS BTYPE=--)
+[    0.692478][2:0:swapper/2] PC is at cpuidle_enter_state+0x3b4/0x87c
+[    0.692491][2:0:swapper/2] LR is at cpuidle_enter_state+0x790/0x87c
+[    0.692501][2:0:swapper/2] pc : [<ffffffd34801f770>] lr : [<ffffffd34801fb4c>] pstate: 20400005
+[    0.692510][2:0:swapper/2] sp : ffffffc00812bd40
+[    0.692517][2:0:swapper/2] x29: ffffffc00812bd80 x28: 000000000682aaab x27: 0000000000418b60
+[    0.692532][2:0:swapper/2] x26: 0000000004712c2d x25: 0000000000000015 x24: 00ffffffffffffff
+[    0.692546][2:0:swapper/2] x23: 0000000000000002 x22: 00000000053a952b x21: ffffff8004caa728
+[    0.692559][2:0:swapper/2] x20: ffffff8b780d3240 x19: ffffff80021bb600 x18: ffffffc0080fd020
+[    0.692573][2:0:swapper/2] x17: 0000f4040044ffff x16: 045000f2b5593519 x15: ffffffd349a7c4d8
+[    0.692586][2:0:swapper/2] x14: ffffffd349a80710 x13: 0000000000007ff3 x12: 00000000000005cd
+[    0.692599][2:0:swapper/2] x11: 000000000000ffff x10: ffffffd349a7c4c0 x9 : 0000000000000002
+[    0.692613][2:0:swapper/2] x8 : 00000000000000e0 x7 : 045000f2b5593519 x6 : 0000000000300000
+[    0.692626][2:0:swapper/2] x5 : ffffffc00812bb70 x4 : 0000000000000700 x3 : 0000000000004d99
+[    0.692639][2:0:swapper/2] x2 : ffffff8b780d3240 x1 : 0000000000000001 x0 : 0000000000000000
+[    0.692652][2:0:swapper/2] Call trace:
+[    0.692660][2:0:swapper/2]  cpuidle_enter_state+0x3b4/0x87c
+[    0.692671][2:0:swapper/2]  do_idle+0x300/0x598
+[    0.692681][2:0:swapper/2]  cpu_startup_entry+0x84/0x90
+[    0.692692][2:0:swapper/2]  secondary_start_kernel+0x294/0x314
+[    0.692702][2:0:swapper/2]  __secondary_switched+0x9c/0xa0
+[    0.692784][7:1:init] qcom_reboot_reason_panic: panic restart!!!
+[    0.692797][7:1:init] ufshcd-qcom 1d84000.ufshc: ......dumping ufs info .......
+[    0.692799][7:1:init] ufshcd-qcom 1d84000.ufshc: UFS Host state=1
+[    0.692802][7:1:init] ufshcd-qcom 1d84000.ufshc: outstanding reqs=0x0 tasks=0x0
+[    0.692804][7:1:init] ufshcd-qcom 1d84000.ufshc: saved_err=0x0, saved_uic_err=0x0
+[    0.692806][7:1:init] ufshcd-qcom 1d84000.ufshc: Device power mode=1, UIC link state=1
+[    0.692808][7:1:init] ufshcd-qcom 1d84000.ufshc: PM in progress=0, sys. suspended=0
+[    0.692811][7:1:init] ufshcd-qcom 1d84000.ufshc: Clk gate=2
+[    0.692812][7:1:init] ufshcd-qcom 1d84000.ufshc: last_hibern8_exit_tstamp at 0 us, hibern8_exit_cnt=0
+[    0.692815][7:1:init] ufshcd-qcom 1d84000.ufshc: last intr at 664799 us, last intr status=0x1
+[    0.692817][7:1:init] ufshcd-qcom 1d84000.ufshc: error handling flags=0x0, req. abort count=0
+[    0.692819][7:1:init] ufshcd-qcom 1d84000.ufshc: hba->ufs_version=0x400, Host capabilities=0x3587031f, caps=0x138f
+[    0.692822][7:1:init] ufshcd-qcom 1d84000.ufshc: quirks=0x100000, dev. quirks=0x0
+[    0.692824][7:1:init] ufshcd-qcom 1d84000.ufshc: [RX, TX]: gear=[4, 4], lane[2, 2], rate = 2
+[    0.692826][7:1:init] ufshcd-qcom 1d84000.ufshc: UFS RPM level = 3
+[    0.692828][7:1:init] ufshcd-qcom 1d84000.ufshc: UFS SPM level = 3
+[    0.692830][7:1:init] ufshcd-qcom 1d84000.ufshc: host_blocked=0
+[    0.692830][7:1:init]  host_failed =0
+[    0.692830][7:1:init]  Host self-block=0
+[    0.692833][7:1:init] ufshcd-qcom 1d84000.ufshc: ............. ufs dump complete ..........
+[    0.693053][7:1:init] Skip md ftrace buffer dump for: 0x1609e0
+[    0.693057][7:1:init] Kernel Offset: 0x133f000000 from 0xffffffc008000000
+[    0.693060][7:1:init] PHYS_OFFSET: 0x80000000
+[    0.693061][7:1:init] CPU features: 0x1,00200381,79b34edb
+[    0.693064][7:1:init] Memory Limit: none
+[    0.693067][7:1:init] Triggering late bite
+[    0.693088][7:1:init] (virq:irq_count)- GICv3:IPI(2):2668 GICv3:IPI(1):739 GICv3:arch_timer(11):571 GICv3:IPI(6):255 GICv3:ufshcd(33):195 GICv3:apps_rsc-drv-2(20):68 GICv3:qcom_rimps(25):13 GICv3:IPI(3):7 GICv3:ipcc_0(35):4 ipcc:qcom,qmp-tme(278):3 
+[    0.693097][7:1:init] (cpu:irq_count)- 0:770 1:366 2:360 3:545 4:459 5:478 6:640 7:911 
+[    0.693102][7:1:init] (ipi:irq_count)- 0:739 1:2668 2:7 3:0 4:0 5:255 6:0 
+[    0.693107][7:1:init] gh-watchdog hypervisor:qcom,gh-watchdog: Causing a QCOM Apps Watchdog bite!
+[    0.693111][7:1:init] gh-watchdog hypervisor:qcom,gh-watchdog: vWdog-CTL: 1, vWdog-time since last pet: 0, vWdog-expired status: 1
